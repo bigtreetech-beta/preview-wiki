@@ -29,8 +29,6 @@ jobs:
           SSH_URL="git@github.com:${REPO}.git"
           HTTPS_URL="https://x-access-token:${TOKEN}@github.com/${REPO}.git"
 
-          env
-          whoami
           git config --global http.version HTTP/1.1
           git config --global http.postBuffer 524288000
           
