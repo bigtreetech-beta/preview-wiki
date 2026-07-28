@@ -1,0 +1,143 @@
+name: Deploy to Self-Hosted Server
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    steps:
+      # Self-hosted runners in this environment often fail HTTPS clone with:
+      #   GnuTLS recv error (-110): The TLS connection was non-properly terminated
+      # Prefer SSH; fall back to HTTPS with retries + HTTP/1.1.
+      - name: Checkout repository
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -eux
+          #Safely assign default values using ${VAR:-default}
+          DEST="${GITHUB_WORKSPACE:-/data/actions-runner/_work/wiki-cms/wiki-cms}"
+          BRANCH="${GITHUB_REF_NAME:-main}"
+          REPO="${GITHUB_REPOSITORY:-bigtreetech-beta/wiki-cms}"
+          TOKEN="${GITHUB_TOKEN:-}"
+          
+          SSH_URL="git@github.com:${REPO}.git"
+          HTTPS_URL="https://x-access-token:${TOKEN}@github.com/${REPO}.git"
+
+          git config --global http.version HTTP/1.1
+          git config --global http.postBuffer 524288000
+          
+          mkdir -p "$DEST"
+          cd "$DEST"
+
+          clone_once() {
+            local url="$1"
+            rm -rf .git
+            find . -mindepth 1 -maxdepth 1 -exec rm -rf {} +
+            git clone --depth 1 --branch "$BRANCH" "$url" .
+          }
+
+          ok=0
+          for i in 1 2 3 4 5; do
+            echo "Checkout attempt ${i}/5 (ssh)..."
+            if clone_once "$SSH_URL"; then ok=1; break; fi
+            echo "Checkout attempt ${i}/5 (https)..."
+            if clone_once "$HTTPS_URL"; then ok=1; break; fi
+            sleep $((i * 5))
+          done
+          if [ "$ok" -ne 1 ]; then
+            echo "Failed to checkout ${REPO}@${BRANCH} after retries"
+            exit 128
+          fi
+          git log -1 --oneline
+
+      - name: Build Wiki
+        run: |
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+          # Repo uses Yarn Berry (see packageManager / yarn.lock). Avoid Yarn 1.
+          corepack enable
+          corepack prepare yarn@4.17.1 --activate
+          rm -rf .docusaurus build
+          yarn install --immutable
+          yarn run build
+      
+      - name: Build Wiki & Update Docusaurus
+        working-directory: /data/wiki-cms-main
+        run: |          
+          WIKIDIR="/data/wiki-cms/wiki-cms-main-$(date -I)-$(date +%s)/"
+          sudo chown -R wiki /data
+          mkdir -p ${WIKIDIR}
+          # we need .nvm directory 
+          cp -fr /data/wiki-cms-main/.nvm  ${WIKIDIR}
+          cp -fr "${GITHUB_WORKSPACE}/."  ${WIKIDIR}
+          ln -fsn ${WIKIDIR} /data/wiki-cms-main
+          sudo chown -R wiki /data/wiki-cms-main
+          sudo systemctl restart docusaurus
+          # Record Version
+          echo "${WIKIDIR}" >>/data/wiki-cms/version.log
+
+      - name: Build Wiki CMS, migrate Directus and restart
+        env:
+          npm_config_cache: /data/wiki-cms-main/.npm
+        working-directory: /data/wiki-cms-main
+        run: |
+          set -eux
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+          corepack enable
+          corepack prepare yarn@4.17.1 --activate
+
+          # Directus Compose reads its environment from cms/.env.
+          cp -f /data/actions-runner/.env cms/.env
+
+          # Build the latest Studio module before restarting Directus.
+          yarn cms:extensions:build
+          yarn cms:up
+          yarn cms:bootstrap
+          # Wait until Directus can accept schema and permission migrations.
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:8055/server/health | grep -q '"status":"ok"'; then
+              break
+            fi
+            if [ "$attempt" -eq 30 ]; then
+              echo "Directus did not become healthy before migration"
+              docker compose -f cms/docker-compose.yml --env-file cms/.env logs --tail=200 directus
+              exit 1
+            fi
+            sleep 2
+          done
+          # Idempotent migration: fields, policies, Wiki choices and templates.
+          yarn cms:migrate
+          # Extension files are bind-mounted. `compose up -d` does not restart an
+          # existing Directus container, so the endpoint would keep running the
+          # previous JavaScript bundle until the process is explicitly restarted.
+          docker compose -f cms/docker-compose.yml --env-file cms/.env restart directus
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:8055/server/health | grep -q '"status":"ok"'; then
+              break
+            fi
+            if [ "$attempt" -eq 30 ]; then
+              echo "Directus did not become healthy after extension restart"
+              docker compose -f cms/docker-compose.yml --env-file cms/.env logs --tail=200 directus
+              exit 1
+            fi
+            sleep 2
+          done
+          # we using wiki-cms service to run "/usr/bin/docker compose -f cms/docker-compose.yml --env-file cms/.env up -d" command
+          sudo systemctl restart wiki-cms
+          
+      - name: Delete History Directory
+        working-directory: /data/wiki-cms
+        run: |
+           lastversion=$(sed -n '11p' version.log)
+           [ -z ${lastversion} ] && exit 0
+           for version in $(sed -n '11,$p' version.log)
+           do
+               [ -d ${version} ] && rm -fr ${version}
+           done
