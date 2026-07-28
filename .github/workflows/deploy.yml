@@ -18,6 +18,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -eux
+          export HOME=/home/runner
+          echo "HOME=$HOME"
           #Safely assign default values using ${VAR:-default}
           DEST="${GITHUB_WORKSPACE:-/data/actions-runner-preview/_work/preview-wiki/preview-wiki}"
           BRANCH="${GITHUB_REF_NAME:-main}"
@@ -27,6 +29,8 @@ jobs:
           SSH_URL="git@github.com:${REPO}.git"
           HTTPS_URL="https://x-access-token:${TOKEN}@github.com/${REPO}.git"
 
+          env
+          whoami
           git config --global http.version HTTP/1.1
           git config --global http.postBuffer 524288000
           
