@@ -19,9 +19,9 @@ jobs:
         run: |
           set -eux
           #Safely assign default values using ${VAR:-default}
-          DEST="${GITHUB_WORKSPACE:-/data/actions-runner/_work/wiki-cms/wiki-cms}"
+          DEST="${GITHUB_WORKSPACE:-/data/actions-runner-preview/_work/preview-wiki/preview-wiki}"
           BRANCH="${GITHUB_REF_NAME:-main}"
-          REPO="${GITHUB_REPOSITORY:-bigtreetech-beta/wiki-cms}"
+          REPO="${GITHUB_REPOSITORY:-bigtreetech-beta/preview-wiki}"
           TOKEN="${GITHUB_TOKEN:-}"
           
           SSH_URL="git@github.com:${REPO}.git"
