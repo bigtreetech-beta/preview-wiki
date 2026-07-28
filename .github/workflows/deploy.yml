@@ -85,7 +85,7 @@ jobs:
         run: |
            lastversion=$(sed -n '11p' preview-wiki-version.log)
            [ -z ${lastversion} ] && exit 0
-           for version in $(sed -n '11,$p' preview-wiki-version.log)
+           for version in $(sed -n '1,10p' preview-wiki-version.log)
            do
                [ -d ${version} ] && rm -fr ${version}
            done
