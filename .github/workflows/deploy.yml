@@ -18,8 +18,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -eux
-          export HOME=/home/runner
-          echo "HOME=$HOME"
           #Safely assign default values using ${VAR:-default}
           DEST="${GITHUB_WORKSPACE:-/data/actions-runner-preview/_work/preview-wiki/preview-wiki}"
           BRANCH="${GITHUB_REF_NAME:-main}"
