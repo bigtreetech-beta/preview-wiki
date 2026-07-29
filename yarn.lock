@@ -9285,7 +9285,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"katex@npm:^0.16.0":
+"katex@npm:^0.16.0, katex@npm:^0.16.47":
   version: 0.16.47
   resolution: "katex@npm:0.16.47"
   dependencies:
@@ -14404,12 +14404,14 @@ __metadata:
     "@docusaurus/faster": "npm:3.10.0"
     "@docusaurus/module-type-aliases": "npm:3.10.0"
     "@docusaurus/preset-classic": "npm:3.10.0"
+    "@docusaurus/theme-common": "npm:3.10.0"
     "@docusaurus/tsconfig": "npm:3.10.0"
     "@docusaurus/types": "npm:3.10.0"
     "@easyops-cn/docusaurus-search-local": "npm:^0.55.1"
     "@mdx-js/react": "npm:^3.0.0"
     artalk: "npm:^2.9.1"
     clsx: "npm:^2.0.0"
+    katex: "npm:^0.16.47"
     prism-react-renderer: "npm:^2.3.0"
     react: "npm:^19.0.0"
     react-dom: "npm:^19.0.0"
