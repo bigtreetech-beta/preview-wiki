@@ -89,3 +89,4 @@ jobs:
            do
                [ -d ${version} ] && rm -fr ${version}
            done
+           sed -i '1,10d' preview-wiki-version.log
