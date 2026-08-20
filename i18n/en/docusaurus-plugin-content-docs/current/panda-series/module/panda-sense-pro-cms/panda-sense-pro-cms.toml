@@ -1,0 +1,164 @@
+[metadata]
+
+[[block]]
+key = "3771d00b36d75476"
+origin = '''
+
+---
+sidebar_position: 99
+description: "CMS 模板生成的产品页演示（非完整 Sense Pro 文档）"
+cms_generated: true
+---
+'''
+translate = '''
+---
+sidebar_position: 99
+description: "CMS 模板生成的产品页演示（非完整 Sense Pro 文档）en"
+cms_generated: true
+---
+'''
+
+[[block]]
+key = "2c20b4d69792f9dc"
+origin = '''
+
+# Panda Sense Pro（CMS 演示）
+'''
+translate = '''
+# Panda Sense Pro（CMS 演示 en）
+'''
+
+[[block]]
+key = "9c3aaedc83e362c7"
+origin = '''
+
+## 产品简介
+'''
+translate = '''
+## 产品简介 en
+'''
+
+[[block]]
+key = "bcec868c85737eb4"
+origin = '''
+
+本页由 cms-codegen 从结构化字段生成，用于验收「填表 → 生成 MDX → 测试站预览」流程。完整功能说明仍见 Panda Sense Pro 主文档。
+'''
+translate = '''
+本页由 cms-codegen 从结构化字段生成，用于验收「填表 → 生成 MDX → 测试站预览」流程。完整功能说明仍见 Panda Sense Pro 主文档 en。
+'''
+
+[[block]]
+key = "4f913da181b20e5e"
+origin = '''
+
+## 技术规格
+'''
+translate = '''
+## 技术规格 en
+'''
+
+[[block]]
+key = "2630bdcb1b81e774"
+origin = '''
+
+| Panda Sense Pro（CMS 演示） | 规格 |
+| --- | --- |
+| 产品外形尺寸 | 117.12mm x 79.78mm x 73.67mm |
+| 电源输入 | USB-C DC5V 2A |
+| MCU | ESP32-S3-WROOM-1-N16R8 |
+| dfdf | test |
+'''
+translate = '''
+| Panda Sense Pro（CMS 演示） | 规格 en |
+| --- | --- |
+| 产品外形尺寸 | 117.12mm x 79.78mm x 73.67mm |
+| 电源输入 | USB-C DC5V 2A |
+| MCU | ESP32-S3-WROOM-1-N16R8 |
+| dfdf | test |
+'''
+
+[[block]]
+key = "c63454864ae0c430"
+origin = '''
+
+## 产品特点
+'''
+translate = '''
+## 产品特点 en
+'''
+
+[[block]]
+key = "78a17765496472bf"
+origin = '''
+
+- 按模板字段编辑，无需手写 MDX
+- 中英分字段维护
+- 保存后可在测试环境预览
+'''
+translate = '''
+- 按模板字段编辑，无需手写 MDX
+- 中英分字段维护
+- 保存后可在测试环境预览 en
+'''
+
+[[block]]
+key = "21bb548a2dafb064"
+origin = '''
+
+| 表头 | 表头 | 表头 | 表头 |
+| --- | --- | --- | --- |
+| 内容 | 内容 | 内容 | 内容 |
+| 内容 | 内容 | 内容 | 内容 |
+'''
+translate = '''
+| 表头 | 表头 | 表头 | 表头 |
+| --- | --- | --- | --- |
+| 内容 | 内容 | 内容 | 内容 |
+| 内容 | 内容 | 内容 | 内容 en |
+'''
+
+[[block]]
+key = "36134a406effffe9"
+origin = '''
+
+```klipper_cfg title="printer.cfg"
+[mcu]
+canbus_uuid: 11aa22bb33cc
+# serial: /dev/serial/by-id/usb-Klipper_Klipper_firmware_12345-if00
+
+[printer]
+kinematics: cartesian
+max_velocity: 300
+max_accel: 3000
+
+# Motor-1
+[stepper_x]
+step_pin: PC13
+dir_pin: PC14
+enable_pin: !PE6
+microsteps: 16
+rotation_distance: 40
+```
+'''
+translate = '''
+
+```klipper_cfg title="printer.cfg"
+[mcu]
+canbus_uuid: 11aa22bb33cc
+# serial: /dev/serial/by-id/usb-Klipper_Klipper_firmware_12345-if00
+
+[printer]
+kinematics: cartesian
+max_velocity: 300
+max_accel: 3000
+
+# Motor-1
+[stepper_x]
+step_pin: PC13
+dir_pin: PC14
+enable_pin: !PE6
+microsteps: 16
+rotation_distance: 40
+```
+'''
