@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+description: 'M600 产品说明'
 ---
 
 # LIS2DW 固件配置
@@ -46,8 +47,11 @@ make flash FLASH_DEVICE=2e8a:0003
 
 ``` klipper_cfg title="printer.cfg"
 # This file contains common pin mappings for the bigtreetech lis2dw v1.0
+
 # To use this config, the firmware should be compiled for the
+
 # RP2040 with "USB"
+
 # The micro-controller will be used to control the components on the nozzle.
 
 # See docs/Config_Reference.md for a description of parameters.
@@ -58,6 +62,7 @@ serial: /dev/serial/by-id/usb-Klipper_rp2040_btt_acc-if00
 [lis2dw]
 cs_pin: btt_lis2dw:gpio9
 #spi_bus: spi1a
+
 spi_software_sclk_pin: btt_lis2dw:gpio10
 spi_software_mosi_pin: btt_lis2dw:gpio11
 spi_software_miso_pin: btt_lis2dw:gpio8
