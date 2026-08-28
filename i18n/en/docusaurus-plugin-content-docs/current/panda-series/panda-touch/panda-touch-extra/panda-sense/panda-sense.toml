@@ -1,0 +1,387 @@
+[metadata]
+
+[[block]]
+key = "37705fcb98d27419"
+origin = '''
+
+---
+description: 'M900 产品说明'
+---
+'''
+translate = '''
+---
+description: 'M900 product'
+---
+'''
+
+[[block]]
+key = "1ccb72256d3023c1"
+origin = '''
+
+# Panda Sense
+'''
+translate = '''
+
+# Panda Sense
+'''
+
+[[block]]
+key = "01ee25a28035f33a"
+origin = '''
+
+Panda Sense 环境温度传感器
+'''
+translate = '''
+Panda Sense product
+'''
+
+[[block]]
+key = "ab2f5cd9d8ae68c2"
+origin = '''
+
+<ImageView src={require('./img/panda_sense_title.png').default} alt="" width="600" />
+'''
+translate = '''
+
+<ImageView src={require('@site/docs/panda-series/panda-touch/panda-touch-extra/panda-sense/img/panda_sense_title.png').default} alt="" width="600" />
+'''
+
+[[block]]
+key = "cd5947d1edd37257"
+origin = '''
+
+## **规格参数**
+'''
+translate = '''
+## **product**
+'''
+
+[[block]]
+key = "cfbebefd20101298"
+origin = '''
+
+| 传感器模块           | AHT30                                   |
+| -------------------- | --------------------------------------- |
+| 连接接口             | PH2.0 4-pin                             |
+| 工作电压             | 3.3V                                    |
+| 温度检测范围和精度   | -40℃ - 120℃, ±0.5℃ (10℃ - 60℃)       |
+| 湿度检测范围和精度   | 0-100%RH, ±3% (within 20%RH - 80%RH) |
+| 产品尺寸             | 27.98 x 27.95 x 11mm                    |
+| 连接线长             | 800mm                                   |
+| Panda Touch 固件支持 | V1.0.6 及以上版本                       |
+'''
+translate = '''
+product
+'''
+
+[[block]]
+key = "852fab9bda834376"
+origin = '''
+
+## **产品尺寸**
+'''
+translate = '''
+## **product**
+'''
+
+[[block]]
+key = "065a5857216bbdfe"
+origin = '''
+
+<ImageView src={require('./img/panda_sense_dimensions.png').default} alt="" width="600" />
+'''
+translate = '''
+
+<ImageView src={require('@site/docs/panda-series/panda-touch/panda-touch-extra/panda-sense/img/panda_sense_dimensions.png').default} alt="" width="600" />
+'''
+
+[[block]]
+key = "0d8774842e580cfd"
+origin = '''
+
+## **接口**
+'''
+translate = '''
+## **product**
+'''
+
+[[block]]
+key = "d300bbb3cfda78ef"
+origin = '''
+
+<ImageView src={require('./img/panda_sense_interfaces.png').default} alt="" width="600" />
+'''
+translate = '''
+
+<ImageView src={require('@site/docs/panda-series/panda-touch/panda-touch-extra/panda-sense/img/panda_sense_interfaces.png').default} alt="" width="600" />
+'''
+
+[[block]]
+key = "fe23b9ac1c380bb1"
+origin = '''
+
+## **指示灯说明**
+'''
+translate = '''
+## **product**
+'''
+
+[[block]]
+key = "b68a7689694126b8"
+origin = '''
+
+绿色：设备正常上电
+'''
+translate = '''
+product
+'''
+
+[[block]]
+key = "714a9c2a85757002"
+origin = '''
+
+## 安装指南
+'''
+translate = '''
+## product
+'''
+
+[[block]]
+key = "e1e26ec77cdd03cb"
+origin = '''
+
+**准备工具**:
+'''
+translate = '''
+**product**:
+'''
+
+[[block]]
+key = "a6ae9f8f9b729bad"
+origin = '''
+
+<ImageView src={require('./img/panda_sense_installation.png').default} alt="" width="600" />
+'''
+translate = '''
+
+<ImageView src={require('@site/docs/panda-series/panda-touch/panda-touch-extra/panda-sense/img/panda_sense_installation.png').default} alt="" width="600" />
+'''
+
+[[block]]
+key = "6a2f49c32c845990"
+origin = '''
+
+**安装步骤:**
+'''
+translate = '''
+**product:**
+'''
+
+[[block]]
+key = "b9d1234c1a0864bf"
+origin = '''
+
+:::tip
+
+请先将Panda Sense磁吸在机器内部，然后将连接线在打印机内部布局好。
+
+Panda Touch 的固件需使用 V1.0.6 及以上版本。
+
+:::
+'''
+translate = '''
+:::tip
+
+product
+
+:::
+'''
+
+[[block]]
+key = "ae4f1d2f6caa1416"
+origin = '''
+
+1. 使用电烙铁将热熔螺母嵌入打印件中。
+'''
+translate = '''
+product
+'''
+
+[[block]]
+key = "3364aebf119e9f09"
+origin = '''
+
+    <ImageView src={require('./img/panda_sense_installation1.png').default} alt="" width="600" />
+'''
+translate = '''
+
+    <ImageView src={require('@site/docs/panda-series/panda-touch/panda-touch-extra/panda-sense/img/panda_sense_installation1.png').default} alt="" width="600" />
+'''
+
+[[block]]
+key = "8dd5bd372b925758"
+origin = '''
+
+2. 继续使用电烙铁将两颗热熔螺母嵌入打印件中，然后使用M3X5圆头螺丝将Panda Sense Dock固定到打印件中。
+'''
+translate = '''
+product
+'''
+
+[[block]]
+key = "173739164e60d450"
+origin = '''
+
+    <ImageView src={require('./img/panda_sense_installation2.png').default} alt="" width="600" />
+'''
+translate = '''
+
+    <ImageView src={require('@site/docs/panda-series/panda-touch/panda-touch-extra/panda-sense/img/panda_sense_installation2.png').default} alt="" width="600" />
+'''
+
+[[block]]
+key = "8a9149b5883ddb20"
+origin = '''
+
+3. 将装有Panda Sense Dock的打印件固定到Panda Touch USB Dock上。
+'''
+translate = '''
+product
+'''
+
+[[block]]
+key = "72f6382837c8e3d4"
+origin = '''
+
+    <ImageView src={require('./img/panda_sense_installation3.png').default} alt="" width="600" />
+'''
+translate = '''
+
+    <ImageView src={require('@site/docs/panda-series/panda-touch/panda-touch-extra/panda-sense/img/panda_sense_installation3.png').default} alt="" width="600" />
+'''
+
+[[block]]
+key = "b454af73d5fb612b"
+origin = '''
+
+    安装完成效果如下图所示：
+'''
+translate = '''
+product
+'''
+
+[[block]]
+key = "d746df2975b91fe5"
+origin = '''
+
+    <ImageView src={require('./img/panda_sense_installation4.png').default} alt="" width="600" />
+'''
+translate = '''
+
+    <ImageView src={require('@site/docs/panda-series/panda-touch/panda-touch-extra/panda-sense/img/panda_sense_installation4.png').default} alt="" width="600" />
+'''
+
+[[block]]
+key = "151bd7df87f38ff5"
+origin = '''
+
+4. 将Panda Sense Touch安装到Panda Touch I2C接口，安装完成效果如右下图所示：
+'''
+translate = '''
+product
+'''
+
+[[block]]
+key = "7ca0ed56c058b634"
+origin = '''
+
+    <ImageView src={require('./img/panda_sense_installation5.png').default} alt="" width="600" />
+'''
+translate = '''
+
+    <ImageView src={require('@site/docs/panda-series/panda-touch/panda-touch-extra/panda-sense/img/panda_sense_installation5.png').default} alt="" width="600" />
+'''
+
+[[block]]
+key = "2ac48c8d840cab93"
+origin = '''
+
+5. 将连接线插入Panda Sense Dock的接口，当Panda Touch磁吸到Panda Touch USB Dock后，Panda Sense即可正常工作。
+'''
+translate = '''
+product
+'''
+
+[[block]]
+key = "339b79c7dd6a564c"
+origin = '''
+
+    <ImageView src={require('./img/panda_sense_installation6.png').default} alt="" width="600" />
+'''
+translate = '''
+
+    <ImageView src={require('@site/docs/panda-series/panda-touch/panda-touch-extra/panda-sense/img/panda_sense_installation6.png').default} alt="" width="600" />
+'''
+
+[[block]]
+key = "3b1366288079d848"
+origin = '''
+
+**如何在Panda Touch上查看温度和湿度**
+'''
+translate = '''
+**product**
+'''
+
+[[block]]
+key = "8465982f3ab7861e"
+origin = '''
+
+<ImageView src={require('./img/panda_sense_installation7.png').default} alt="" width="600" />
+'''
+translate = '''
+
+<ImageView src={require('@site/docs/panda-series/panda-touch/panda-touch-extra/panda-sense/img/panda_sense_installation7.png').default} alt="" width="600" />
+'''
+
+[[block]]
+key = "d4d32560c7f3e2f3"
+origin = '''
+
+打印机空闲时
+'''
+translate = '''
+product
+'''
+
+[[block]]
+key = "54c25382c7604f80"
+origin = '''
+
+<ImageView src={require('./img/panda_sense_installation8.png').default} alt="" width="600" />
+'''
+translate = '''
+
+<ImageView src={require('@site/docs/panda-series/panda-touch/panda-touch-extra/panda-sense/img/panda_sense_installation8.png').default} alt="" width="600" />
+'''
+
+[[block]]
+key = "ce0be8d5fa520e07"
+origin = '''
+
+打印机打印中
+'''
+translate = '''
+product
+'''
+
+[[block]]
+key = "54c25382c7604f80"
+origin = '''
+
+<ImageView src={require('./img/panda_sense_installation8.png').default} alt="" width="600" />
+'''
+translate = '''
+
+<ImageView src={require('@site/docs/panda-series/panda-touch/panda-touch-extra/panda-sense/img/panda_sense_installation8.png').default} alt="" width="600" />
+'''
