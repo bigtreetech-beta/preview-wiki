@@ -1,0 +1,92 @@
+[metadata]
+
+[[block]]
+key = "204cbb89b4402326"
+origin = '''
+
+---
+description: 'Panda Revo X1 Hotend 文档'
+---
+'''
+translate = '''
+---
+description: 'Panda Revo X1 Hotend 文'
+---
+'''
+
+[[block]]
+key = "06c70a4179541967"
+origin = '''
+
+# Panda Revo X1 M8000 Hotend
+'''
+translate = '''
+
+
+# Panda Revo X1 M8000 Hotend
+'''
+
+[[block]]
+key = "6eeedb9515637492"
+origin = '''
+
+<div class="div-table">
+
+<ImageView
+    src={require('./img/Panda_Revo_X1_Hotend_Title.webp').default}
+    alt=""
+    width="40%"
+    class="right-image"
+/>
+
+## **产品简介**
+
+与E3D
+
+## **功能亮点**
+
+- E3d
+
+</div>
+'''
+translate = '''
+
+<div class="div-table">
+
+<ImageView
+    src={require('@site/docs/panda-series/hotend/panda-revo/img/Panda_Revo_X1_Hotend_Title.webp').default}
+    alt=""
+    width="40%"
+    class="right-image"
+/>
+
+## **产品简介**
+
+与E3D
+
+## **功能亮点**
+
+- E3d
+
+</div>
+'''
+
+[[block]]
+key = "e3376ff3f2911658"
+origin = '''
+
+<ImageView
+    src={require('./img/Panda_Revo_X1_Hotend_In16.webp').default}
+    alt=""
+    width="80%"
+/>
+'''
+translate = '''
+
+
+<ImageView
+    src={require('@site/docs/panda-series/hotend/panda-revo/img/Panda_Revo_X1_Hotend_In16.webp').default}
+    alt=""
+    width="80%"
+/>
+'''
