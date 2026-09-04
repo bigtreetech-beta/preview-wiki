@@ -1,0 +1,133 @@
+[metadata]
+
+[[block]]
+key = "d70ff44622b78c67"
+origin = '''
+# test800
+'''
+translate = '''
+# test800
+'''
+
+[[block]]
+key = "9c3aaedc83e362c7"
+origin = '''
+## 产品简介
+'''
+translate = '''
+## 产品e简介
+'''
+
+[[block]]
+key = "4f913da181b20e5e"
+origin = '''
+## 技术规格
+'''
+translate = '''
+## 技术e规格
+'''
+
+[[block]]
+key = "547d7804c4ec3903"
+origin = '''
+| test800 | 规格 |
+| --- | --- |
+'''
+translate = '''
+| test800 | 规e格 |
+| --- | --- |
+'''
+
+[[block]]
+key = "c63454864ae0c430"
+origin = '''
+## 产品特点
+'''
+translate = '''
+## 产品e特点
+'''
+
+[[block]]
+key = "ceabf8a6995fba3c"
+origin = '''
+`MCU`
+'''
+translate = '''
+`MCU`
+'''
+
+[[block]]
+key = "36134a406effffe9"
+origin = '''
+```klipper_cfg title="printer.cfg"
+[mcu]
+canbus_uuid: 11aa22bb33cc
+# serial: /dev/serial/by-id/usb-Klipper_Klipper_firmware_12345-if00
+
+[printer]
+kinematics: cartesian
+max_velocity: 300
+max_accel: 3000
+
+# Motor-1
+
+[stepper_x]
+step_pin: PC13
+dir_pin: PC14
+enable_pin: !PE6
+microsteps: 16
+rotation_distance: 40
+```
+'''
+translate = '''
+```klipper_cfg title="printer.cfg"
+[mcu]
+canbus_uuid: 11aa22bb33cc
+# serial: /dev/serial/by-id/usb-Klipper_Klipper_firmware_12345-if00
+
+[printer]
+kinematics: cartesian
+max_velocity: 300
+max_accel: 3000
+
+# Motor-1
+
+[stepper_x]
+step_pin: PC13
+dir_pin: PC14
+enable_pin: !PE6
+microsteps: 16
+rotation_distance: 40
+```
+'''
+
+[[block]]
+key = "babf3080018336f8"
+origin = '''
+**配置示例**
+'''
+translate = '''
+**配置e示例**
+'''
+
+[[block]]
+key = "61d2f1937395b226"
+origin = '''
+在此填写配置说明（可删除此行）
+'''
+translate = '''
+在此填写配e置说明（可删除此行）
+'''
+
+[[block]]
+key = "8ca7b9f634979888"
+origin = '''
+```toml
+在此粘贴配置内容
+```
+'''
+translate = '''
+```toml
+在此粘贴e配置内容
+```
+'''
