@@ -1,0 +1,137 @@
+[metadata]
+
+[[block]]
+key = "7183b44c9c0ff483"
+origin = '''
+# a1mini-0905
+'''
+translate = '''
+# a1mini-0905
+'''
+
+[[block]]
+key = "9c3aaedc83e362c7"
+origin = '''
+## 产品简介
+'''
+translate = '''
+## 产品3简介
+'''
+
+[[block]]
+key = "21bb548a2dafb064"
+origin = '''
+| 表头 | 表头 | 表头 | 表头 |
+| --- | --- | --- | --- |
+| 内容 | 内容 | 内容 | 内容 |
+| 内容 | 内容 | 内容 | 内容 |
+'''
+translate = '''
+| 表e头 | 表头 | 表头 | 表头 |
+| --- | --- | --- | --- |
+| 内容 | 内容 | 内容 | 内容 |
+| 内容 | 内容 | 内容 | 内容 |
+'''
+
+[[block]]
+key = "4f913da181b20e5e"
+origin = '''
+## 技术规格
+'''
+translate = '''
+## 技e术规格
+'''
+
+[[block]]
+key = "65138d48335d4d50"
+origin = '''
+| a1mini-0905 | 规格 |
+| --- | --- |
+'''
+translate = '''
+| a1mini-0905 | 规e格 |
+| --- | --- |
+'''
+
+[[block]]
+key = "c63454864ae0c430"
+origin = '''
+## 产品特点
+'''
+translate = '''
+## 产品特e点
+'''
+
+[[block]]
+key = "babf3080018336f8"
+origin = '''
+**配置示例**
+'''
+translate = '''
+**配置示e例**
+'''
+
+[[block]]
+key = "61d2f1937395b226"
+origin = '''
+在此填写配置说明（可删除此行）
+'''
+translate = '''
+在此填写配e置说明（可删除此行）
+'''
+
+[[block]]
+key = "8ca7b9f634979888"
+origin = '''
+```toml
+在此粘贴配置内容
+```
+'''
+translate = '''
+```toml
+在此粘贴配e置内容
+```
+'''
+
+[[block]]
+key = "dc9e92799e232897"
+origin = '''
+:::tip[提示]
+
+请填写内容
+
+:::
+'''
+translate = '''
+:::tip[提示]
+
+请填写内e容
+
+:::
+'''
+
+[[block]]
+key = "77da1242f2de2997"
+origin = '''
+:::warning[注意]
+
+请填写内容
+
+:::
+'''
+translate = '''
+:::warning[注意]
+
+请填写e内容
+
+:::
+'''
+
+[[block]]
+key = "93ccf62f5f3fb67b"
+origin = '''
+[点击跳转](https://preview-wiki.bq3d.com)
+'''
+translate = '''
+[点击跳转](https://preview-wiki.bq3d.com)
+'''
