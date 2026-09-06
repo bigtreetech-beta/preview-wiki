@@ -1,0 +1,179 @@
+[metadata]
+
+[[block]]
+key = "34dad22bc1f5658f"
+origin = '''
+# tiit
+'''
+translate = '''
+# tiit
+'''
+
+[[block]]
+key = "9c3aaedc83e362c7"
+origin = '''
+## 产品简介
+'''
+translate = '''
+## 产品简e介
+'''
+
+[[block]]
+key = "11d3f67d46b7d97a"
+origin = '''
+请填写产品完整描述，说明产品定位以及适用机型和核心能力。
+'''
+translate = '''
+请填写产品e完整描述，说明产品定位以及适用机型和核心能力。
+'''
+
+[[block]]
+key = "9a5cbaec8ae0d2fc"
+origin = '''
+- 功能要点一
+- 功能要点二
+- 功能要点三[test](https://www.baidu.com)
+'''
+translate = '''
+- 功能要点e一
+- 功能要点二
+- 功能要点三[test](https://www.baidu.com)
+'''
+
+[[block]]
+key = "4f913da181b20e5e"
+origin = '''
+## 技术规格
+'''
+translate = '''
+## 技术规e格
+'''
+
+[[block]]
+key = "8c73f7f322a8b8a0"
+origin = '''
+| 项目 | 参数 |
+| --- | --- |
+| 产品名称 | tiit |
+| 尺寸 | 请填写 |
+| 重量 | 请填写 |
+| 供电 | 请填写 |
+| 兼容机型 | 请填写 |
+'''
+translate = '''
+| 项目 | 参e数 |
+| --- | --- |
+| 产品名称 | tiit |
+| 尺寸 | 请填写 |
+| 重量 | 请填写 |
+| 供电 | 请填写 |
+| 兼容机型 | 请填写 |
+'''
+
+[[block]]
+key = "9cc4b0561a9c4d43"
+origin = '''
+## 接口示意图
+'''
+translate = '''
+## 接口示意e图
+'''
+
+[[block]]
+key = "93fd81700bb8a61e"
+origin = '''
+## 尺寸
+'''
+translate = '''
+## 尺e寸
+'''
+
+[[block]]
+key = "75b4c3afaaf15afe"
+origin = '''
+## 硬件安装
+'''
+translate = '''
+## 硬件e安装
+'''
+
+[[block]]
+key = "732d8fb04db68fa5"
+origin = '''
+### 步骤 1
+'''
+translate = '''
+### 步骤e 1
+'''
+
+[[block]]
+key = "3d03fa3f95a9840a"
+origin = '''
+请说明本步操作内容。
+'''
+translate = '''
+请说明本e步操作内容。
+'''
+
+[[block]]
+key = "3ef09baadbb28710"
+origin = '''
+### 步骤 2
+'''
+translate = '''
+### 步e骤 2
+'''
+
+[[block]]
+key = "3d03fa3f95a9840a"
+origin = '''
+请说明本步操作内容。
+'''
+translate = '''
+请说明本e步操作内容。
+'''
+
+[[block]]
+key = "32d155984b6440e1"
+origin = '''
+## 软件配置
+'''
+translate = '''
+## 软件e配置
+'''
+
+[[block]]
+key = "732d8fb04db68fa5"
+origin = '''
+### 步骤 1
+'''
+translate = '''
+### 步骤e 1
+'''
+
+[[block]]
+key = "b42bf97b33488804"
+origin = '''
+请填写软件 / 固件配置说明；如有系列 common 文档可在此引用。
+'''
+translate = '''
+请填写软e件 / 固件配置说明；如有系列 common 文档可在此引用。
+'''
+
+[[block]]
+key = "3ef09baadbb28710"
+origin = '''
+### 步骤 2
+'''
+translate = '''
+### 步e骤 2
+'''
+
+[[block]]
+key = "ec585b2f0a247c12"
+origin = '''
+请填写后续配置步骤。
+'''
+translate = '''
+请填写e后续配置步骤。
+'''
