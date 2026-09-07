@@ -1,0 +1,124 @@
+[metadata]
+
+[[block]]
+key = "21b53d2732ef92c2"
+origin = '''
+# m900
+'''
+translate = '''
+# m900
+'''
+
+[[block]]
+key = "9c3aaedc83e362c7"
+origin = '''
+## 产品简介
+'''
+translate = '''
+## Product
+'''
+
+[[block]]
+key = "4f913da181b20e5e"
+origin = '''
+## 技术规格
+'''
+translate = '''
+## Product Features
+'''
+
+[[block]]
+key = "caaa4c5be171e1cf"
+origin = '''
+| m900 | 规格 |
+| --- | --- |
+'''
+translate = '''
+| m900 | Product Features|
+| --- | --- |
+'''
+
+[[block]]
+key = "c63454864ae0c430"
+origin = '''
+## 产品特点
+'''
+translate = '''
+## Product Features
+'''
+
+[[block]]
+key = "cb80be25177a08a2"
+origin = '''
+Product Feature
+'''
+translate = '''
+Product Feature
+'''
+
+[[block]]
+key = "36134a406effffe9"
+origin = '''
+```klipper_cfg title="printer.cfg"
+[mcu]
+canbus_uuid: 11aa22bb33cc
+# serial: /dev/serial/by-id/usb-Klipper_Klipper_firmware_12345-if00
+
+[printer]
+kinematics: cartesian
+max_velocity: 300
+max_accel: 3000
+
+# Motor-1
+
+[stepper_x]
+step_pin: PC13
+dir_pin: PC14
+enable_pin: !PE6
+microsteps: 16
+rotation_distance: 40
+```
+'''
+translate = '''
+```klipper_cfg title="printer.cfg"
+[mcu]
+canbus_uuid: 11aa22bb33cc
+# serial: /dev/serial/by-id/usb-Klipper_Klipper_firmware_12345-if00
+
+[printer]
+kinematics: cartesian
+max_velocity: 300
+max_accel: 3000
+
+# Motor-1
+
+[stepper_x]
+step_pin: PC13
+dir_pin: PC14
+enable_pin: !PE6
+microsteps: 16
+rotation_distance: 40
+```
+'''
+
+[[block]]
+key = "7353084baf7ceafb"
+origin = '''
+| 表头 | 表头 |
+| --- | --- |
+| 内容 | 内容 |
+'''
+translate = '''
+| Header | Header |
+| --- | --- |
+| Content | Content  |
+'''
+
+[[block]]
+key = "89cb3672cb04b08b"
+origin = '''
+[https://www.google.com](https://www.google.com)
+'''
+translate = '''
+[https://www.google.com](https://www.google.com)
+'''
