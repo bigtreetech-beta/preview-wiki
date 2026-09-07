@@ -1,0 +1,57 @@
+[metadata]
+
+[[block]]
+key = "0123d61243e2cde0"
+origin = '''
+# m3000
+'''
+translate = '''
+# m3000
+'''
+
+[[block]]
+key = "9c3aaedc83e362c7"
+origin = '''
+## 产品简介
+'''
+translate = '''
+## Product Feature
+'''
+
+[[block]]
+key = "4f913da181b20e5e"
+origin = '''
+## 技术规格
+'''
+translate = '''
+## Product Feature
+'''
+
+[[block]]
+key = "ea4e5f4113c2dc12"
+origin = '''
+| m3000 | 规格 |
+| --- | --- |
+'''
+translate = '''
+| m3000 | Product Feature |
+| --- | --- |
+'''
+
+[[block]]
+key = "c63454864ae0c430"
+origin = '''
+## 产品特点
+'''
+translate = '''
+## Product Feature
+'''
+
+[[block]]
+key = "c24755a29568be7d"
+origin = '''
+规定在每年九月的第一个星期一，是联邦的法定节假日.
+'''
+translate = '''
+Labor Day
+'''
