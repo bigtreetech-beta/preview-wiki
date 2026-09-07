@@ -1,0 +1,113 @@
+[metadata]
+
+[[block]]
+key = "dd2ac824a1d62db3"
+origin = '''
+# M9000
+'''
+translate = '''
+# M9000
+'''
+
+[[block]]
+key = "9c3aaedc83e362c7"
+origin = '''
+## 产品简介
+'''
+translate = '''
+## Product Feature
+'''
+
+[[block]]
+key = "4f913da181b20e5e"
+origin = '''
+## 技术规格
+'''
+translate = '''
+## System Requirment
+'''
+
+[[block]]
+key = "fa55fd8060af4abf"
+origin = '''
+| M9000 | 规格 |
+| --- | --- |
+'''
+translate = '''
+| M9000 | Feature |
+| --- | --- |
+'''
+
+[[block]]
+key = "c63454864ae0c430"
+origin = '''
+## 产品特点
+'''
+translate = '''
+## Product Feature
+'''
+
+[[block]]
+key = "57fddde104f50e00"
+origin = '''
+我们来自中国深圳，是一家3D打印公司
+'''
+translate = '''
+We are come from shenzhen china,an 3d printing company
+'''
+
+[[block]]
+key = "36134a406effffe9"
+origin = '''
+```klipper_cfg title="printer.cfg"
+[mcu]
+canbus_uuid: 11aa22bb33cc
+# serial: /dev/serial/by-id/usb-Klipper_Klipper_firmware_12345-if00
+
+[printer]
+kinematics: cartesian
+max_velocity: 300
+max_accel: 3000
+
+# Motor-1
+
+[stepper_x]
+step_pin: PC13
+dir_pin: PC14
+enable_pin: !PE6
+microsteps: 16
+rotation_distance: 40
+```
+'''
+translate = '''
+```klipper_cfg title="printer.cfg"
+[mcu]
+canbus_uuid: 11aa22bb33cc
+# serial: /dev/serial/by-id/usb-Klipper_Klipper_firmware_12345-if00
+
+[printer]
+kinematics: cartesian
+max_velocity: 300
+max_accel: 3000
+
+# Motor-1
+
+[stepper_x]
+step_pin: PC13
+dir_pin: PC14
+enable_pin: !PE6
+microsteps: 16
+rotation_distance: 40
+```
+'''
+
+[[block]]
+key = "71a7f67dcfee2f16"
+origin = '''
+| 表头 |
+| --- |
+'''
+translate = '''
+| Header |
+| --- |
+'''
