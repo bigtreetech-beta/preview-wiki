@@ -1,0 +1,246 @@
+[metadata]
+
+[[block]]
+key = "e8894f8e70f6ea55"
+origin = '''
+# typeb3000
+'''
+translate = '''
+# typeb3000
+'''
+
+[[block]]
+key = "9c3aaedc83e362c7"
+origin = '''
+## 产品简介
+'''
+translate = '''
+## Product Feature
+'''
+
+[[block]]
+key = "2f1479059bdc8ce1"
+origin = '''
+## Tesla uses billions of miles of anonymous real-world driving data to train Full Self-Driving (Supervised) to take care of the most stressful parts of daily driving while helping make the roads safer for you and others. When enabled, your vehicle will drive you almost anywhere with your active supervision, requiring minimal intervention.
+'''
+translate = '''
+## Tesla uses billions of miles of anonymous real-world driving data to train Full Self-Driving (Supervised) to take care of the most stressful parts of daily driving while helping make the roads safer for you and others. When enabled, your vehicle will drive you almost anywhere with your active supervision, requiring minimal intervention.
+'''
+
+[[block]]
+key = "4f913da181b20e5e"
+origin = '''
+## 技术规格
+'''
+translate = '''
+## Product Requirement
+'''
+
+[[block]]
+key = "14d1332a4d483a93"
+origin = '''
+| typeb3000 | 规格 |
+| --- | --- |
+'''
+translate = '''
+| typeb3000 | Requirement|
+| --- | --- |
+'''
+
+[[block]]
+key = "53e76518dd8f52b8"
+origin = '''
+## Designed for Every Drive
+'''
+translate = '''
+## Designed for Every Drive
+'''
+
+[[block]]
+key = "5ca8667a1dbd4565"
+origin = '''
+## Full Self-Driving (Supervised) intelligently and accurately completes driving maneuvers for you, including route navigation, steering, lane changes, parking and more under your active supervision. Use it for quick errands, daily commutes and road trips. Currently enabled features require active driver supervision and do not make the vehicle autonomous.
+'''
+translate = '''
+## Full Self-Driving (Supervised) intelligently and accurately completes driving maneuvers for you, including route navigation, steering, lane changes, parking and more under your active supervision. Use it for quick errands, daily commutes and road trips. Currently enabled features require active driver supervision and do not make the vehicle autonomous.
+'''
+
+[[block]]
+key = "bfeb45d1952d9cbd"
+origin = '''
+##### Actually Smart Summon2
+'''
+translate = '''
+##### Actually Smart Summon2
+'''
+
+[[block]]
+key = "e683b6507377907d"
+origin = '''
+## Drives to You
+'''
+translate = '''
+## Drives to You
+'''
+
+[[block]]
+key = "6fcac56fdf8dc5dd"
+origin = '''
+## Activate in the Tesla app and your Tesla vehicle will navigate through parking lots and tight spaces to get to you.
+'''
+translate = '''
+## Activate in the Tesla app and your Tesla vehicle will navigate through parking lots and tight spaces to get to you.
+'''
+
+[[block]]
+key = "1aab0164e0916a76"
+origin = '''
+##### FSD (Supervised)
+'''
+translate = '''
+##### FSD (Supervised)
+'''
+
+[[block]]
+key = "537af62847b5078c"
+origin = '''
+## Drives for You3
+'''
+translate = '''
+## Drives for You3
+'''
+
+[[block]]
+key = "ab4d994518d7bfa1"
+origin = '''
+## On-board cameras with 360-degree visibility will check your blind spots and move your Tesla vehicle into a neighboring lane while maintaining your speed and avoiding bikes, motorcycles and other cars.
+'''
+translate = '''
+## On-board cameras with 360-degree visibility will check your blind spots and move your Tesla vehicle into a neighboring lane while maintaining your speed and avoiding bikes, motorcycles and other cars.
+'''
+
+[[block]]
+key = "25e8d686fa8b44da"
+origin = '''
+##### Autopark
+'''
+translate = '''
+##### Autopark
+'''
+
+[[block]]
+key = "b844f7435cdd13f8"
+origin = '''
+## Parks for You
+'''
+translate = '''
+## Parks for You
+'''
+
+[[block]]
+key = "d986b626e46b6c4f"
+origin = '''
+## Your Tesla vehicle will automatically detect and maneuver into perpendicular and parallel parking spots for you.
+'''
+translate = '''
+## Your Tesla vehicle will automatically detect and maneuver into perpendicular and parallel parking spots for you.
+'''
+
+[[block]]
+key = "c244c4750843f1f1"
+origin = '''
+## Trained on Once-In-A-Lifetime Scenarios
+'''
+translate = '''
+## Trained on Once-In-A-Lifetime Scenarios
+'''
+
+[[block]]
+key = "2574bd0fa16c404c"
+origin = '''
+## Crashes are complex. Full Self-Driving (Supervised) is trained on what amounts to over 100 years of anonymous real-world driving scenarios from our fleet of over six million vehicles. Our fleet collectively experiences a lifetime of driving scenarios in 10 minutes.
+'''
+translate = '''
+## Crashes are complex. Full Self-Driving (Supervised) is trained on what amounts to over 100 years of anonymous real-world driving scenarios from our fleet of over six million vehicles. Our fleet collectively experiences a lifetime of driving scenarios in 10 minutes.
+'''
+
+[[block]]
+key = "373b7de75253a33b"
+origin = '''
+## Always Attentive,
+'''
+translate = '''
+## Always Attentive,
+'''
+
+[[block]]
+key = "6aaf354276e2a4f6"
+origin = '''
+Never Distracted
+'''
+translate = '''
+Never Distracted
+'''
+
+[[block]]
+key = "85401bf04a984176"
+origin = '''
+## Cameras don’t blink, feel tired or get distracted. Full Self-Driving (Supervised) helps you drive better by taking care of the most common and error-prone driving tasks. Tesla vehicles are equipped with exterior cameras that enable 360-degree visibility, plus safety features powered by the same technology as our FSD software to help reduce the severity of accidents or prevent them altogether. Over-the-air software updates ensure each Tesla vehicle has access to the latest safety improvements. [Learn More](https://www.tesla.com/safety)
+'''
+translate = '''
+## Cameras don’t blink, feel tired or get distracted. Full Self-Driving (Supervised) helps you drive better by taking care of the most common and error-prone driving tasks. Tesla vehicles are equipped with exterior cameras that enable 360-degree visibility, plus safety features powered by the same technology as our FSD software to help reduce the severity of accidents or prevent them altogether. Over-the-air software updates ensure each Tesla vehicle has access to the latest safety improvements. [Learn More](https://www.tesla.com/safety)
+'''
+
+[[block]]
+key = "c5b77e7dcaba9c28"
+origin = '''
+## As our technology continues to advance, we get closer to making a fully autonomous future possible. With Full Self-Driving (Unsupervised), autonomous driving will be made possible, unlocking our fleet of robotaxis and making Cybercab a reality. [Find Out What’s Coming Next](https://x.com/Tesla_AI)
+'''
+translate = '''
+## As our technology continues to advance, we get closer to making a fully autonomous future possible. With Full Self-Driving (Unsupervised), autonomous driving will be made possible, unlocking our fleet of robotaxis and making Cybercab a reality. [Find Out What’s Coming Next](https://x.com/Tesla_AI)
+'''
+
+[[block]]
+key = "fba909a6d8b1592b"
+origin = '''
+### Experience It for Yourself
+'''
+translate = '''
+### Experience It for Yourself
+'''
+
+[[block]]
+key = "cb754cd73c21a21b"
+origin = '''
+## Schedule a demo drive to try Full Self-Driving (Supervised) from the driver’s seat or [find additional information](https://www.tesla.com/support/fsd).[Demo FSD (Supervised)](https://www.tesla.com/drive)1 Price reflects monthly subscription, subject to terms and conditions. Price and feature availability subject to change.2 Availability of all features depends on regulatory approval and other factors, which may take longer in some jurisdictions.3 Currently enabled features require active driver supervision and do not make the vehicle autonomous.4 Counters increment at the average rate of Tesla fleet mileage per second. This number may not include mileage increases for the growing fleet and free trials offered.5 Compared to the estimated U.S. average6 Including the U.S., Canada, China, Mexico, Puerto Rico, Australia, New Zealand, South Korea, the Netherlands, Lithuania, Estonia, Denmark and Belgium
+'''
+translate = '''
+## Schedule a demo drive to try Full Self-Driving (Supervised) from the driver’s seat or [find additional information](https://www.tesla.com/support/fsd).[Demo FSD (Supervised)](https://www.tesla.com/drive)1 Price reflects monthly subscription, subject to terms and conditions. Price and feature availability subject to change.2 Availability of all features depends on regulatory approval and other factors, which may take longer in some jurisdictions.3 Currently enabled features require active driver supervision and do not make the vehicle autonomous.4 Counters increment at the average rate of Tesla fleet mileage per second. This number may not include mileage increases for the growing fleet and free trials offered.5 Compared to the estimated U.S. average6 Including the U.S., Canada, China, Mexico, Puerto Rico, Australia, New Zealand, South Korea, the Netherlands, Lithuania, Estonia, Denmark and Belgium
+'''
+
+[[block]]
+key = "52d606129664ab09"
+origin = '''
+## Footer menu
+'''
+translate = '''
+## Footer menu
+'''
+
+[[block]]
+key = "b97afe2c3b52c259"
+origin = '''
+## [Tesla © 2026](https://www.tesla.com/about)[Privacy & Legal](https://www.tesla.com/legal)[Vehicle Recalls](https://service.tesla.com/en-US/vin-recall-search)[Contact](https://www.tesla.com/contact)[News](https://www.tesla.com/blog)[Get Updates](https://www.tesla.com/updates)[Locations](https://www.tesla.com/findus/list)[Learn](https://www.tesla.com/learn)[https://www.tesla.com/current-offers](https://www.tesla.com/current-offers)
+'''
+translate = '''
+## [Tesla © 2026](https://www.tesla.com/about)[Privacy & Legal](https://www.tesla.com/legal)[Vehicle Recalls](https://service.tesla.com/en-US/vin-recall-search)[Contact](https://www.tesla.com/contact)[News](https://www.tesla.com/blog)[Get Updates](https://www.tesla.com/updates)[Locations](https://www.tesla.com/findus/list)[Learn](https://www.tesla.com/learn)[https://www.tesla.com/current-offers](https://www.tesla.com/current-offers)
+'''
+
+[[block]]
+key = "c63454864ae0c430"
+origin = '''
+## 产品特点
+'''
+translate = '''
+## Requirement
+'''
