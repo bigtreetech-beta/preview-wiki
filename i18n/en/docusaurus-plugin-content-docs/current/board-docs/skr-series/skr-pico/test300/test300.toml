@@ -1,0 +1,57 @@
+[metadata]
+
+[[block]]
+key = "b616675aba25f1a7"
+origin = '''
+# test300
+'''
+translate = '''
+# test300
+'''
+
+[[block]]
+key = "9c3aaedc83e362c7"
+origin = '''
+## 产品简介
+'''
+translate = '''
+## Product
+'''
+
+[[block]]
+key = "104c7ff4987556f5"
+origin = '''
+## 测试使用
+'''
+translate = '''
+## For Test
+'''
+
+[[block]]
+key = "4f913da181b20e5e"
+origin = '''
+## 技术规格
+'''
+translate = '''
+## Product Feature
+'''
+
+[[block]]
+key = "3aeac99d4ee78d52"
+origin = '''
+| test300 | 规格 |
+| --- | --- |
+'''
+translate = '''
+| test300 | Product|
+| --- | --- |
+'''
+
+[[block]]
+key = "c63454864ae0c430"
+origin = '''
+## 产品特点
+'''
+translate = '''
+## Product Feature
+'''
