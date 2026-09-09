@@ -18,43 +18,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           HTTP_PROXY: http://192.168.1.226:17891
           HTTPS_PROXY: http://192.168.1.226:17891
-        run: |
-          set -eux
-          #Safely assign default values using ${VAR:-default}
-          DEST="${GITHUB_WORKSPACE:-/data/actions-runner-preview/_work/preview-wiki/preview-wiki}"
-          BRANCH="${GITHUB_REF_NAME:-main}"
-          REPO="${GITHUB_REPOSITORY:-bigtreetech-beta/preview-wiki}"
-          TOKEN="${GITHUB_TOKEN:-}"
-          
-          SSH_URL="git@github.com:${REPO}.git"
-          HTTPS_URL="https://x-access-token:${TOKEN}@github.com/${REPO}.git"
-
-          git config --global http.version HTTP/1.1
-          git config --global http.postBuffer 524288000
-          
-          mkdir -p "$DEST"
-          cd "$DEST"
-
-          clone_once() {
-            local url="$1"
-            rm -rf .git
-            find . -mindepth 1 -maxdepth 1 -exec rm -rf {} +
-            git clone --depth 1 --branch "$BRANCH" "$url" .
-          }
-
-          ok=0
-          for i in 1 2 3 4 5; do
-            echo "Checkout attempt ${i}/5 (ssh)..."
-            if clone_once "$SSH_URL"; then ok=1; break; fi
-            echo "Checkout attempt ${i}/5 (https)..."
-            if clone_once "$HTTPS_URL"; then ok=1; break; fi
-            sleep $((i * 5))
-          done
-          if [ "$ok" -ne 1 ]; then
-            echo "Failed to checkout ${REPO}@${BRANCH} after retries"
-            exit 128
-          fi
-          git log -1 --oneline
+        uses: actions/checkout@v4
+        with:
+         ref: main
+         fetch-depth: 1
 
       - name: Build Wiki
         run: |
