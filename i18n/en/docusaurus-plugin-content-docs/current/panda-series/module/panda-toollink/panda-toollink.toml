@@ -1,0 +1,359 @@
+[metadata]
+
+[[block]]
+key = "1491aa2b893edc6f"
+origin = '''
+# Panda toollink 硬件功能
+'''
+translate = '''
+# Panda toollink 硬件功能j
+'''
+
+[[block]]
+key = "315c24abe8051454"
+origin = '''
+## 外观尺寸
+'''
+translate = '''
+## 外观尺寸j
+'''
+
+[[block]]
+key = "358d615e35011cdd"
+origin = '''
+:::note[STEP 模型]
+
+请补充 STEP 模型下载链接。
+
+:::
+'''
+translate = '''
+:::note[STEP 模型]
+
+请补充 STEP 模型下载链接。
+j
+:::
+'''
+
+[[block]]
+key = "732a6bc30f7f35f8"
+origin = '''
+## Pinout
+'''
+translate = '''
+## Pinoutj
+'''
+
+[[block]]
+key = "f0d25636125bb18a"
+origin = '''
+:::note[原理图 / Schematic]
+
+请补充原理图下载链接。
+
+:::
+'''
+translate = '''
+:::note[原理图 / Schematic]
+
+请补充原理图下载链接。
+
+:::j
+'''
+
+[[block]]
+key = "8e4b84853b9a1edc"
+origin = '''
+## 步进电机驱动
+'''
+translate = '''
+## 步进电机驱动j
+'''
+
+[[block]]
+key = "a32f5e3de3f75f67"
+origin = '''
+### 电机驱动配置（SPI / UART）
+'''
+translate = '''
+### 电机驱动配置（SPI / UART）j
+'''
+
+[[block]]
+key = "4453ba373cea9ea5"
+origin = '''
+**SPI 模式**：使用 SPI 模式连接驱动。
+'''
+translate = '''
+**SPI 模式**：使用 SPI 模式连接驱动j。
+'''
+
+[[block]]
+key = "370ea51b76609c17"
+origin = '''
+**UART 模式**：使用 UART 模式连接驱动。
+'''
+translate = '''
+**UART 模式**：使用 UART 模式连接驱动。j
+'''
+
+[[block]]
+key = "789c47646d1277e3"
+origin = '''
+### 驱动电压选择
+'''
+translate = '''
+### 驱动电压选择j
+'''
+
+[[block]]
+key = "6730196e28c490ea"
+origin = '''
+**24V 电源**
+'''
+translate = '''
+**24V 电源**j
+'''
+
+[[block]]
+key = "c01557f6580586ae"
+origin = '''
+**48V 电源**
+'''
+translate = '''
+**48V 电源**j
+'''
+
+[[block]]
+key = "f9e3d6353217d4c6"
+origin = '''
+### TMC Sensorless
+'''
+translate = '''
+### TMC Sensorlessj
+'''
+
+[[block]]
+key = "163706290ca0b485"
+origin = '''
+请填写无感回零接线与配置说明。
+'''
+translate = '''
+请填写无感回零接线与配置说明。j
+'''
+
+[[block]]
+key = "7d5aea2fd0230b62"
+origin = '''
+## 核心板
+'''
+translate = '''
+## 核心板j
+'''
+
+[[block]]
+key = "e39b9cab04b56574"
+origin = '''
+### 核心板安装
+'''
+translate = '''
+### 核心板安装j
+'''
+
+[[block]]
+key = "100ef498f6a2b8ec"
+origin = '''
+请填写核心板安装步骤。
+'''
+translate = '''
+请填写核心板安装步骤。j
+'''
+
+[[block]]
+key = "c7d9300721ad6579"
+origin = '''
+### USB 供电
+'''
+translate = '''
+### USB 供电j
+'''
+
+[[block]]
+key = "0f446d2dccfced72"
+origin = '''
+请填写 USB 供电注意事项。
+'''
+translate = '''
+请填写 USB 供电注意事项。j
+'''
+
+[[block]]
+key = "e306383a2331c15e"
+origin = '''
+### DSI / CSI 连接
+'''
+translate = '''
+### DSI / CSI 连接j
+'''
+
+[[block]]
+key = "eff061c8dbe3a09f"
+origin = '''
+请填写显示屏 / 摄像头接口说明。
+'''
+translate = '''
+请填写显示屏 / 摄像头接口说明。j
+'''
+
+[[block]]
+key = "61e5d848d710ccff"
+origin = '''
+## 风扇
+'''
+translate = '''
+## 风扇j
+'''
+
+[[block]]
+key = "07982d3e80d6740c"
+origin = '''
+### 风扇电压选择
+'''
+translate = '''
+### 风扇电压选择j
+'''
+
+[[block]]
+key = "185e8e3e5b52964a"
+origin = '''
+请填写风扇电压跳线说明。
+'''
+translate = '''
+请填写风扇电压跳线说明。j
+'''
+
+[[block]]
+key = "b65657a741f3f2ac"
+origin = '''
+### 4Pin PWM 风扇接线
+'''
+translate = '''
+### 4Pin PWM 风扇接线j
+'''
+
+[[block]]
+key = "8d5471ab341173eb"
+origin = '''
+请填写 4Pin PWM 风扇接线图说明。
+'''
+translate = '''
+请填写 4Pin PWM 风扇接线图说明。j
+'''
+
+[[block]]
+key = "acf51ab86a823e47"
+origin = '''
+## 传感器
+'''
+translate = '''
+## 传感器j
+'''
+
+[[block]]
+key = "b1e9f52837719268"
+origin = '''
+### 100K NTC 或 PT1000 设置
+'''
+translate = '''
+### 100K NTC 或 PT1000 设置j
+'''
+
+[[block]]
+key = "b572fa950b5720d3"
+origin = '''
+请填写热敏电阻跳线 / 配置说明。
+'''
+translate = '''
+请填写热敏电阻跳线 / 配置说明。j
+'''
+
+[[block]]
+key = "e4f8322cce677cf8"
+origin = '''
+### BLTouch / MicroProbe
+'''
+translate = '''
+### BLTouch / MicroProbej
+'''
+
+[[block]]
+key = "518719749da6ec8f"
+origin = '''
+请填写自动调平探头接线说明。
+'''
+translate = '''
+请填写自动调平探头接线说明。j
+'''
+
+[[block]]
+key = "eeb7ed6fcd5f9935"
+origin = '''
+### I2C 接线（温湿度传感器）
+'''
+translate = '''
+### I2C 接线（温湿度传感器）j
+'''
+
+[[block]]
+key = "cc834edc7cf30bde"
+origin = '''
+请填写 I2C 传感器接线说明。
+'''
+translate = '''
+请填写 I2C 传感器接线说明。j
+'''
+
+[[block]]
+key = "23b96587b2ba5ff3"
+origin = '''
+## 其他硬件
+'''
+translate = '''
+## 其他硬件j
+'''
+
+[[block]]
+key = "94803a519ba22631"
+origin = '''
+### Neopixel
+'''
+translate = '''
+### Neopixelj
+'''
+
+[[block]]
+key = "65f9c9bea5610294"
+origin = '''
+请填写 Neopixel 接线说明。
+'''
+translate = '''
+请填写 Neopixel 接线说明。j
+'''
+
+[[block]]
+key = "e852c3335ae45536"
+origin = '''
+### 舵机接线
+'''
+translate = '''
+### 舵机接线j
+'''
+
+[[block]]
+key = "043db2e0aed7e7ad"
+origin = '''
+请填写舵机接线说明。
+'''
+translate = '''
+请填写舵机接线说明。j
+'''
