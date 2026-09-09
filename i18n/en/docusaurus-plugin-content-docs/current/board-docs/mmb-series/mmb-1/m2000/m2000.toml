@@ -1,0 +1,57 @@
+[metadata]
+
+[[block]]
+key = "80062b26700fbb75"
+origin = '''
+# m2000
+'''
+translate = '''
+# m2000
+'''
+
+[[block]]
+key = "9c3aaedc83e362c7"
+origin = '''
+## 产品简介
+'''
+translate = '''
+## Product Feature
+'''
+
+[[block]]
+key = "4f913da181b20e5e"
+origin = '''
+## 技术规格
+'''
+translate = '''
+## Product Feature
+'''
+
+[[block]]
+key = "0cb2ef0bc4499840"
+origin = '''
+| m2000 | 规格 |
+| --- | --- |
+'''
+translate = '''
+| m2000 | Product Feature|
+| --- | --- |
+'''
+
+[[block]]
+key = "c63454864ae0c430"
+origin = '''
+## 产品特点
+'''
+translate = '''
+## Product Feature
+'''
+
+[[block]]
+key = "46a1018fcc9684b4"
+origin = '''
+Hello Come from China
+'''
+translate = '''
+Hello Come from China
+'''
