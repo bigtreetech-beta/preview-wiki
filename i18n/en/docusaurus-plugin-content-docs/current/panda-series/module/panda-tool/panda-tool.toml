@@ -1,0 +1,156 @@
+[metadata]
+
+[[block]]
+key = "ad683df313f795e5"
+origin = '''
+# panda tool
+'''
+translate = '''
+# panda tool1
+'''
+
+[[block]]
+key = "1a14dbe5efd73183"
+origin = '''
+:::tip[CAD 文件]
+
+CAD 文件：[bigtreetech/PandaTouch/3D](https://github.com/bigtreetech/PandaTouch/tree/master/3D)
+
+:::
+'''
+translate = '''
+:::tip[CAD 文件]
+
+CAD 文件：[bigtreetech/PandaTouch/3D](https://github.com/bigtreetech/PandaTouch/tree/master/3D)
+
+:::1
+'''
+
+[[block]]
+key = "a5e2a8e47dc928bc"
+origin = '''
+## 装配说明
+'''
+translate = '''
+## 装配说明1
+'''
+
+[[block]]
+key = "77c7c5602e94109a"
+origin = '''
+### 概述
+'''
+translate = '''
+### 概述1
+'''
+
+[[block]]
+key = "0f67f0a8decfb2fc"
+origin = '''
+:::tip[提示]
+
+请在这里说明产品的电源开关，供电模式以及推荐使用场景。
+
+:::
+'''
+translate = '''
+:::tip[提示]
+
+请在这里说明产品的电源开关，供电模式以及推荐使用场景。1
+
+:::
+'''
+
+[[block]]
+key = "bff91b94a0e4cfb2"
+origin = '''
+### 充电座
+'''
+translate = '''
+### 充电座1
+'''
+
+[[block]]
+key = "83cacf5aca838612"
+origin = '''
+### 包装清单
+'''
+translate = '''
+### 包装清单1
+'''
+
+[[block]]
+key = "44fea4cfe69d0531"
+origin = '''
+| 物品 | 数量 |
+| --- | --- |
+| 产品本体 | 1 |
+| 安装附件 | 1 套 |
+'''
+translate = '''
+| 物品 | 数量 |
+| --- | --- |
+| 产品本体 | 1 |
+| 安装附件 | 1 套 |1
+'''
+
+[[block]]
+key = "4885077f9fe5f55a"
+origin = '''
+### 安装 panda tool
+'''
+translate = '''
+### 安装 panda tool1
+'''
+
+[[block]]
+key = "caa5e5da742cbc02"
+origin = '''
+1. 组装安装支架。
+1. 清洁安装表面并固定支架。
+1. 连接产品和电源。
+'''
+translate = '''
+1. 组装安装支架。
+1. 清洁安装表面并固定支架。
+1. 连接产品和电源。1
+'''
+
+[[block]]
+key = "bc140ccf8272c674"
+origin = '''
+### 接线和电源连接
+'''
+translate = '''
+### 接线和电源连接1
+'''
+
+[[block]]
+key = "9bd7fe78bbd731fd"
+origin = '''
+1. 连接充电电缆。
+1. 整理并固定线缆。
+1. 选择合适的电源模式。
+'''
+translate = '''
+1. 连接充电电缆。
+1. 整理并固定线缆。
+1. 选择合适的电源模式。1
+'''
+
+[[block]]
+key = "c6feea05726442de"
+origin = '''
+:::warning[注意]
+
+通电前请确认线缆已经完全固定，不会干涉设备运动。
+
+:::
+'''
+translate = '''
+:::warning[注意]
+1
+通电前请确认线缆已经完全固定，不会干涉设备运动。
+
+:::
+'''
