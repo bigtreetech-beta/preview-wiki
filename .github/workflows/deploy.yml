@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: self-hosted
+    runs-on: dev-local
     steps:
       # Self-hosted runners in this environment often fail HTTPS clone with:
       #   GnuTLS recv error (-110): The TLS connection was non-properly terminated
@@ -62,6 +62,7 @@ jobs:
           # Repo uses Yarn Berry (see packageManager / yarn.lock). Avoid Yarn 1.
           corepack enable
           corepack prepare yarn@4.17.1 --activate
+          nvm use 24.18.0
           rm -rf .docusaurus build
           yarn install --immutable
           yarn run build
