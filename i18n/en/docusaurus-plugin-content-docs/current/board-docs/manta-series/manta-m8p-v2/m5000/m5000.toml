@@ -1,0 +1,135 @@
+[metadata]
+
+[[block]]
+key = "3821926d5a24e7f1"
+origin = '''
+# M5000
+'''
+translate = '''
+# M5000
+'''
+
+[[block]]
+key = "9c3aaedc83e362c7"
+origin = '''
+## 产品简介
+'''
+translate = '''
+## Product
+'''
+
+[[block]]
+key = "c735c72a72349cc8"
+origin = '''
+## M5000
+'''
+translate = '''
+## M5000
+'''
+
+[[block]]
+key = "4f913da181b20e5e"
+origin = '''
+## 技术规格
+'''
+translate = '''
+## product
+'''
+
+[[block]]
+key = "f846577c486f99bf"
+origin = '''
+| M5000 | 规格 |
+| --- | --- |
+'''
+translate = '''
+| M5000 | product|
+| --- | --- |
+'''
+
+[[block]]
+key = "c63454864ae0c430"
+origin = '''
+## 产品特点
+'''
+translate = '''
+## product
+'''
+
+[[block]]
+key = "fd9b52b582f5475b"
+origin = '''
+M5000
+'''
+translate = '''
+M5000
+'''
+
+[[block]]
+key = "36134a406effffe9"
+origin = '''
+```klipper_cfg title="printer.cfg"
+[mcu]
+canbus_uuid: 11aa22bb33cc
+# serial: /dev/serial/by-id/usb-Klipper_Klipper_firmware_12345-if00
+
+[printer]
+kinematics: cartesian
+max_velocity: 300
+max_accel: 3000
+
+# Motor-1
+
+[stepper_x]
+step_pin: PC13
+dir_pin: PC14
+enable_pin: !PE6
+microsteps: 16
+rotation_distance: 40
+```
+'''
+translate = '''
+```klipper_cfg title="printer.cfg"
+[mcu]
+canbus_uuid: 11aa22bb33cc
+# serial: /dev/serial/by-id/usb-Klipper_Klipper_firmware_12345-if00
+
+[printer]
+kinematics: cartesian
+max_velocity: 300
+max_accel: 3000
+
+# Motor-1
+
+[stepper_x]
+step_pin: PC13
+dir_pin: PC14
+enable_pin: !PE6
+microsteps: 16
+rotation_distance: 40
+```
+'''
+
+[[block]]
+key = "fc0ca78ea9b0d635"
+origin = '''
+`MY`
+'''
+translate = '''
+`MYSiSTer`
+'''
+
+[[block]]
+key = "9a7af21692aa101d"
+origin = '''
+:::tip[提示]
+
+Hello
+
+:::
+'''
+translate = '''
+:::tip[product]
+Hello
+:::
+'''
