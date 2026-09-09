@@ -60,11 +60,11 @@ jobs:
         run: |
           export NVM_DIR="$HOME/.nvm"
           [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-
+          nvm install 24.18.0
+          nvm use 24.18.0
           # Repo uses Yarn Berry (see packageManager / yarn.lock). Avoid Yarn 1.
           corepack enable
           corepack prepare yarn@4.17.1 --activate
-          nvm use 24.18.0
           rm -rf .docusaurus build
           yarn install --immutable
           yarn run build
