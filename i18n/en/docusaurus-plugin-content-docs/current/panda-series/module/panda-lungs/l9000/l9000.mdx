@@ -1,0 +1,36 @@
+# L9000
+
+## Product Feature
+
+## We are come from China
+
+## Reuqirment
+
+| L9000 | R3000|
+| --- | --- |
+
+## Content 
+
+Hello ,this is an Test
+
+```klipper_cfg title="printer.cfg"
+[mcu]
+canbus_uuid: 11aa22bb33cc
+# serial: /dev/serial/by-id/usb-Klipper_Klipper_firmware_12345-if00
+
+[printer]
+kinematics: cartesian
+max_velocity: 300
+max_accel: 3000
+
+# Motor-1
+
+[stepper_x]
+step_pin: PC13
+dir_pin: PC14
+enable_pin: !PE6
+microsteps: 16
+rotation_distance: 40
+```
+
+`#!/bin/bash`
