@@ -1,0 +1,264 @@
+[metadata]
+
+[[block]]
+key = "27e972804657a868"
+origin = '''
+# m500
+'''
+translate = '''
+# m500
+'''
+
+[[block]]
+key = "9c3aaedc83e362c7"
+origin = '''
+## 产品简介
+'''
+translate = '''
+## Product Feature
+'''
+
+[[block]]
+key = "4f913da181b20e5e"
+origin = '''
+## 技术规格
+'''
+translate = '''
+## Product Feature
+'''
+
+[[block]]
+key = "73c314b2c0f5922a"
+origin = '''
+| m500 | 规格 |
+| --- | --- |
+'''
+translate = '''
+| m500 | Product Feature|
+| --- | --- |
+'''
+
+[[block]]
+key = "c63454864ae0c430"
+origin = '''
+## 产品特点
+'''
+translate = '''
+## Product Feature
+'''
+
+[[block]]
+key = "79149421d24400fe"
+origin = '''
+**劳动节**
+'''
+translate = '''
+**Labour Day**
+'''
+
+[[block]]
+key = "a1de025bdecf948c"
+origin = '''
+通常是年度与全球性的节日，目的是为了庆祝
+'''
+translate = '''
+Labour Day (or Labor Day) is an official public holiday in many countries. In most countries, Labour Day is synonymous with, or linked with, International Workers' Day, which happens on 1 May. It was originally chosen to commemorate the 1886 general strike which culminated in the Haymarket affair.[1] In the United States and Canada, it is a public holiday on the first Monday in September.
+'''
+
+[[block]]
+key = "2e1ce9727bec9679"
+origin = '''
+[劳动阶级](https://zh.wikipedia.org/wiki/%E5%8B%9E%E5%8B%95%E9%9A%8E%E7%B4%9A)
+'''
+translate = '''
+[Labour Day](https://zh.wikipedia.org/wiki/%E5%8B%9E%E5%8B%95%E9%9A%8E%E7%B4%9A)
+'''
+
+[[block]]
+key = "eb28e169058b8e2b"
+origin = '''
+对社会和经济所做的贡献。世界上大多数国家或地区的劳动节是在5月1日，因此通常也称之为
+'''
+translate = '''
+Labour Day
+'''
+
+[[block]]
+key = "3f274f737944f287"
+origin = '''
+[国际劳动节](https://zh.wikipedia.org/wiki/%E5%9B%BD%E9%99%85%E5%8A%B3%E5%8A%A8%E8%8A%82)
+'''
+translate = '''
+Labour Day
+'''
+
+[[block]]
+key = "603f92e950d00da5"
+origin = '''
+，是纪念
+'''
+translate = '''
+Labour Day
+'''
+
+[[block]]
+key = "9d344a558ca3a114"
+origin = '''
+[美国](https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%9B%BD)
+'''
+translate = '''
+Labour Day
+'''
+
+[[block]]
+key = "471286502f92a46f"
+origin = '''
+发生的
+'''
+translate = '''
+Labour Day
+'''
+
+[[block]]
+key = "e2687e653034284d"
+origin = '''
+[干草市场屠杀](https://zh.wikipedia.org/wiki/%E5%B9%B2%E8%8D%89%E5%B8%82%E5%9C%BA%E5%B1%A0%E6%9D%80)
+'''
+translate = '''
+Labour Day
+'''
+
+[[block]]
+key = "eb0d5884569b398e"
+origin = '''
+。
+'''
+translate = '''
+.
+'''
+
+[[block]]
+key = "9d344a558ca3a114"
+origin = '''
+[美国](https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%9B%BD)
+'''
+translate = '''
+Labour Day
+'''
+
+[[block]]
+key = "3d7114281f5b59d9"
+origin = '''
+和
+'''
+translate = '''
+And
+'''
+
+[[block]]
+key = "6c22a562ee85987a"
+origin = '''
+[加拿大](https://zh.wikipedia.org/wiki/%E5%8A%A0%E6%8B%BF%E5%A4%A7)
+'''
+translate = '''
+Labour Day
+'''
+
+[[block]]
+key = "48eb0b42e305c3bd"
+origin = '''
+的劳动节是在9月的第一个星期一。
+'''
+translate = '''
+Labour Day
+'''
+
+[[block]]
+key = "c752405e818af7f4"
+origin = '''
+[新西兰](https://zh.wikipedia.org/wiki/%E7%B4%90%E8%A5%BF%E8%98%AD)
+'''
+translate = '''
+Labour Day
+'''
+
+[[block]]
+key = "e86d524856153773"
+origin = '''
+的劳动节是十月的第4个星期一。
+'''
+translate = '''
+Labour Day
+'''
+
+[[block]]
+key = "84cc98dc59441545"
+origin = '''
+[澳大利亚](https://zh.wikipedia.org/wiki/%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A)
+'''
+translate = '''
+Labour Day
+'''
+
+[[block]]
+key = "e9f1eb7387abfc81"
+origin = '''
+不同的地区对劳动节有不同的规定。而在
+'''
+translate = '''
+Labour Day
+'''
+
+[[block]]
+key = "cb35025cecca0515"
+origin = '''
+[日本](https://zh.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC)
+'''
+translate = '''
+Labour Day
+'''
+
+[[block]]
+key = "50f829497bddccc0"
+origin = '''
+，类似的节日在
+'''
+translate = '''
+Labour Day
+'''
+
+[[block]]
+key = "f14cc7586113d97c"
+origin = '''
+[11月23日](https://zh.wikipedia.org/wiki/11%E6%9C%8823%E6%97%A5)
+'''
+translate = '''
+Labour Day
+'''
+
+[[block]]
+key = "e8120ed30ed54cc1"
+origin = '''
+，称为
+'''
+translate = '''
+Labour Day
+'''
+
+[[block]]
+key = "fc7fbd616c7b4bc3"
+origin = '''
+[勤劳感谢之日](https://zh.wikipedia.org/wiki/%E5%8B%A4%E5%8B%9E%E6%84%9F%E8%AC%9D%E4%B9%8B%E6%97%A5)
+'''
+translate = '''
+Labour Day
+'''
+
+[[block]]
+key = "eb0d5884569b398e"
+origin = '''
+。
+'''
+translate = '''
+.
+'''
