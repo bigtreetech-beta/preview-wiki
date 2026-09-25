@@ -1,25 +1,45 @@
 ---
 sidebar_position: 3
+description: 'M600 De'
 ---
 
-# SKR Pico Firmware Configuration
+# 
+SKR Pico Firmware Configuration
+
 
 SKR Pico Firmware Configuration
 
+
 {/* import lib start */}
 
+
 import Tabs from '@theme/Tabs';
+
+
 import TabItem from '@theme/TabItem';
+
 
 {/* import lib end */}
 
+
 ## Flashing Klipper Firmware
+
 
 Reference for writing Klipper firmware to SKR Pico [SKR Series Firmware (RP2040)](../skr-firmware-rp2040.md)
 
+:::warning[C]
+
+Caution
+
+:::
+
+Caution
+
+
 ## Klipper Configuration File Reference
 
-``` klipper_cfg title="printer.cfg"
+
+```klipper_cfg
 [stepper_x]
 step_pin: gpio11
 dir_pin: !gpio10
@@ -28,7 +48,9 @@ microsteps: 16
 rotation_distance: 40
 endstop_pin: ^gpio4
 # endstop_pin: tmc2209_stepper_x:virtual_endstop
+
 # homing_retract_dist: 0
+
 position_endstop: 0
 position_max: 235
 homing_speed: 50
@@ -41,6 +63,7 @@ run_current: 0.8
 hold_current: 0.6
 stealthchop_threshold: 999999
 # diag_pin: ^gpio4
+
 # driver_SGTHRS: 100
 
 [stepper_y]
@@ -51,7 +74,9 @@ microsteps: 16
 rotation_distance: 40
 endstop_pin: ^gpio3
 # endstop_pin: tmc2209_stepper_y:virtual_endstop
+
 # homing_retract_dist: 0
+
 position_endstop: 0
 position_max: 235
 homing_speed: 50
@@ -73,7 +98,9 @@ enable_pin: !gpio2
 microsteps: 16
 rotation_distance: 8
 # endstop_pin: ^gpio25
+
 # position_endstop: 0
+
 endstop_pin: probe:z_virtual_endstop
 position_min: -2.0
 position_max: 250
@@ -104,7 +131,7 @@ pid_Ki: 1.08
 pid_Kd: 114
 min_temp: 0
 max_temp: 300
-max_extrude_cross_section: 2
+max_extrude_cross_section:2
 
 [tmc2209 extruder]
 uart_pin: gpio9
@@ -119,7 +146,9 @@ switch_pin: ^gpio16
 pause_on_runout: True
 
 # [filament_motion_sensor smart_sensor]
+
 # switch_pin: ^gpio16
+
 # detection_length: 2.5
 
 [heater_bed]
@@ -148,6 +177,7 @@ heater_temp: 45.0
 
 [mcu]
 # serial: /dev/serial/by-id/usb-Klipper_rp2040_E66094A027854422-if00
+
 serial: /dev/ttyAMA0
 restart_method: command
 
@@ -159,7 +189,9 @@ max_z_velocity: 25
 max_z_accel: 30
 
 #[bltouch]
+
 #sensor_pin: gpio22
+
 #control_pin: gpio29
 
 [neopixel board_rgb]
