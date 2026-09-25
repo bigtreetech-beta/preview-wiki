@@ -1,0 +1,273 @@
+[metadata]
+
+[[block]]
+key = "d47e815af93bb840"
+origin = '''
+
+---
+sidebar_position: 3
+description: 'M600 产品说明'
+---
+'''
+translate = '''
+---
+sidebar_position: 3
+description: 'M600 MN'
+---
+'''
+
+[[block]]
+key = "c3de22f7557fd89e"
+origin = '''
+
+# LIS2DW 固件配置
+'''
+translate = '''
+# LIS2DW MN
+'''
+
+[[block]]
+key = "9e2c16dcc92bf7ce"
+origin = '''
+
+{/* import lib start */}
+'''
+translate = '''
+
+{/* import lib start */}
+'''
+
+[[block]]
+key = "160e2c82fbaef13c"
+origin = '''
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "c012cc6c2fca315b"
+origin = '''
+
+{/* import lib end */}
+'''
+translate = '''
+
+{/* import lib end */}
+'''
+
+[[block]]
+key = "3d10ffd24956545e"
+origin = '''
+
+## 编译 Klipper 固件
+'''
+translate = '''
+##  Klipper
+'''
+
+[[block]]
+key = "1b4a9a91ac4d0d89"
+origin = '''
+
+使用 ssh 连接到 Klipper Host. 然后使用以下命令进入 Klipper 目录。并且使用 `make menuconfig` 配置固件。
+'''
+translate = '''
+SSH
+'''
+
+[[block]]
+key = "a18bfc19c771a8e5"
+origin = '''
+
+``` shell
+cd ~/klipper
+make menuconfig 
+```
+'''
+translate = '''
+
+``` shell
+cd ~/klipper
+make menuconfig 
+```
+'''
+
+[[block]]
+key = "9b871476564dbf61"
+origin = '''
+
+<ImageView src={require('./img/lis2dw-firmware-config.png').default} width="80%"/>
+'''
+translate = '''
+
+<ImageView src={require('@site/docs/accessories-docs/sensor/lis2dw/img/lis2dw-firmware-config.png').default} width="80%"/>
+'''
+
+[[block]]
+key = "0dfc9894b0cc8781"
+origin = '''
+
+当配置完成使用 `q` 来退出。使用 `y` 来保存编译选项。
+'''
+translate = '''
+When I
+'''
+
+[[block]]
+key = "50157bdc559de387"
+origin = '''
+
+然后使用 `make` 命令来开始编译 Klipper 固件
+'''
+translate = '''
+My `make` Command
+'''
+
+[[block]]
+key = "06b3664e30aa8376"
+origin = '''
+
+``` shell
+make
+```
+'''
+translate = '''
+
+``` shell
+make
+```
+'''
+
+[[block]]
+key = "eb6604a4391e6abd"
+origin = '''
+
+## 写入固件
+'''
+translate = '''
+## FIreware
+'''
+
+[[block]]
+key = "e77efeb4a31d2953"
+origin = '''
+
+当使用 Klipper 固件编译完成后。然后按住 `LIS2DW` 的 `boot` 按钮。然后插入 `USB` 进入 `Boot` 模式。
+'''
+translate = '''
+Klipper 
+'''
+
+[[block]]
+key = "2dc3117fa6f4374f"
+origin = '''
+
+然后可以使用 `lsusb` 命令来确认 `LIS2DW` 是否在 `Boot` 模式中。
+'''
+translate = '''
+Lsb
+'''
+
+[[block]]
+key = "cb20be2ec7ca48ab"
+origin = '''
+
+当确认 LIS2DW 在 Boot 模式中后。可以使用以下命令来写入固件。
+'''
+translate = '''
+LSB
+'''
+
+[[block]]
+key = "921ca3a27b9b8bab"
+origin = '''
+
+``` shell
+make flash FLASH_DEVICE=2e8a:0003
+```
+'''
+translate = '''
+
+``` shell
+make flash FLASH_DEVICE=2e8a:0003
+```
+'''
+
+[[block]]
+key = "dcfa28be1bad5bbd"
+origin = '''
+
+## 配置 Klipper
+'''
+translate = '''
+## Configure Klipper
+'''
+
+[[block]]
+key = "cfff302bbbb55ab8"
+origin = '''
+
+``` klipper_cfg title="printer.cfg"
+# This file contains common pin mappings for the bigtreetech lis2dw v1.0
+
+# To use this config, the firmware should be compiled for the
+
+# RP2040 with "USB"
+
+# The micro-controller will be used to control the components on the nozzle.
+
+# See docs/Config_Reference.md for a description of parameters.
+
+[mcu btt_lis2dw]
+serial: /dev/serial/by-id/usb-Klipper_rp2040_btt_acc-if00
+
+[lis2dw]
+cs_pin: btt_lis2dw:gpio9
+#spi_bus: spi1a
+
+spi_software_sclk_pin: btt_lis2dw:gpio10
+spi_software_mosi_pin: btt_lis2dw:gpio11
+spi_software_miso_pin: btt_lis2dw:gpio8
+axes_map: -y,x,-z
+
+[resonance_tester]
+probe_points: 100, 100, 20
+accel_chip: lis2dw
+```
+'''
+translate = '''
+
+``` klipper_cfg title="printer.cfg"
+# This file contains common pin mappings for the bigtreetech lis2dw v1.0
+
+# To use this config, the firmware should be compiled for the
+
+# RP2040 with "USB"
+
+# The micro-controller will be used to control the components on the nozzle.
+
+# See docs/Config_Reference.md for a description of parameters.
+
+[mcu btt_lis2dw]
+serial: /dev/serial/by-id/usb-Klipper_rp2040_btt_acc-if00
+
+[lis2dw]
+cs_pin: btt_lis2dw:gpio9
+#spi_bus: spi1a
+
+spi_software_sclk_pin: btt_lis2dw:gpio10
+spi_software_mosi_pin: btt_lis2dw:gpio11
+spi_software_miso_pin: btt_lis2dw:gpio8
+axes_map: -y,x,-z
+
+[resonance_tester]
+probe_points: 100, 100, 20
+accel_chip: lis2dw
+```
+'''
