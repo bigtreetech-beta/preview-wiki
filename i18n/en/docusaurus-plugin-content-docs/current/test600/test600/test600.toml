@@ -1,0 +1,183 @@
+[metadata]
+
+[[block]]
+key = "72b17013943cb9d1"
+origin = '''
+
+---
+sidebar_position: 1
+description: ""
+cms_generated: true
+---
+'''
+translate = '''
+
+
+
+
+---
+sidebar_position: 1
+description: ""
+cms_generated: true
+---
+'''
+
+[[block]]
+key = "3d1d426b81eeac6e"
+origin = '''
+
+# test600
+'''
+translate = '''
+
+
+
+
+# test600
+'''
+
+[[block]]
+key = "9c3aaedc83e362c7"
+origin = '''
+
+## 产品简介
+'''
+translate = '''
+
+
+
+## Description
+'''
+
+[[block]]
+key = "0656a286132ba505"
+origin = '''
+
+```klipper_cfg
+[mcu]
+canbus_uuid: 11aa22bb33cc
+# serial: /dev/serial/by-id/usb-Klipper_Klipper_firmware_12345-if00
+
+[printer]
+kinematics: cartesian
+max_velocity: 300
+max_accel: 3000
+
+# Motor-1
+[stepper_x]
+step_pin: PC13
+dir_pin: PC14
+enable_pin: !PE6
+microsteps: 16
+rotation_distance: 40
+```
+'''
+translate = '''
+
+
+
+```klipper_cfg
+[mcu]
+canbus_uuid: 11aa22bb33cc
+# serial: /dev/serial/by-id/usb-Klipper_Klipper_firmware_12345-if00
+
+[printer]
+kinematics: cartesian
+max_velocity: 300
+max_accel: 3000
+
+# Motor-1
+[stepper_x]
+step_pin: PC13
+dir_pin: PC14
+enable_pin: !PE6
+microsteps: 16
+rotation_distance: 40
+```
+'''
+
+[[block]]
+key = "4f913da181b20e5e"
+origin = '''
+
+## 技术规格
+'''
+translate = '''
+
+
+
+## Requirement
+'''
+
+[[block]]
+key = "db01834f3129de07"
+origin = '''
+
+| test600 | 规格 |
+| --- | --- |
+'''
+translate = '''
+
+
+
+| test600 | Description |
+| --- | --- |
+'''
+
+[[block]]
+key = "c63454864ae0c430"
+origin = '''
+
+## 产品特点
+'''
+translate = '''
+
+
+
+## Feature
+'''
+
+[[block]]
+key = "36134a406effffe9"
+origin = '''
+
+```klipper_cfg title="printer.cfg"
+[mcu]
+canbus_uuid: 11aa22bb33cc
+# serial: /dev/serial/by-id/usb-Klipper_Klipper_firmware_12345-if00
+
+[printer]
+kinematics: cartesian
+max_velocity: 300
+max_accel: 3000
+
+# Motor-1
+[stepper_x]
+step_pin: PC13
+dir_pin: PC14
+enable_pin: !PE6
+microsteps: 16
+rotation_distance: 40
+```
+'''
+translate = '''
+
+```klipper_cfg title="printer.cfg"
+[mcu]
+canbus_uuid: 11aa22bb33cc
+# serial: /dev/serial/by-id/usb-Klipper_Klipper_firmware_12345-if00
+
+[printer]
+kinematics: cartesian
+max_velocity: 300
+max_accel: 3000
+
+# Motor-1
+[stepper_x]
+step_pin: PC13
+dir_pin: PC14
+enable_pin: !PE6
+microsteps: 16
+rotation_distance: 40
+```
+'''
