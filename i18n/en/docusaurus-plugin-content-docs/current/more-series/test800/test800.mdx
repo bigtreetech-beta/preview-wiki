@@ -1,0 +1,40 @@
+# test800
+
+## 产品e简介
+
+## 技术e规格
+
+| test800 | 规e格 |
+| --- | --- |
+
+## 产品e特点
+
+`MCU`
+
+```klipper_cfg title="printer.cfg"
+[mcu]
+canbus_uuid: 11aa22bb33cc
+# serial: /dev/serial/by-id/usb-Klipper_Klipper_firmware_12345-if00
+
+[printer]
+kinematics: cartesian
+max_velocity: 300
+max_accel: 3000
+
+# Motor-1
+
+[stepper_x]
+step_pin: PC13
+dir_pin: PC14
+enable_pin: !PE6
+microsteps: 16
+rotation_distance: 40
+```
+
+**配置e示例**
+
+在此填写配e置说明（可删除此行）
+
+```toml
+在此粘贴e配置内容
+```
