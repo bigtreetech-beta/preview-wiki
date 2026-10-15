@@ -1,0 +1,103 @@
+[metadata]
+
+[[block]]
+key = "3771d00b36d75476"
+origin = '''
+
+---
+sidebar_position: 99
+description: "CMS 模板生成的产品页演示（非完整 Sense Pro 文档）"
+cms_generated: true
+---
+'''
+translate = '''
+---
+sidebar_position: 99
+description: "C"
+cms_generated: true
+---
+'''
+
+[[block]]
+key = "2c20b4d69792f9dc"
+origin = '''
+
+# Panda Sense Pro（CMS 演示）
+'''
+translate = '''
+# Panda Sense Pro（
+'''
+
+[[block]]
+key = "9c3aaedc83e362c7"
+origin = '''
+
+## 产品简介
+'''
+translate = '''
+## Product Introduction
+'''
+
+[[block]]
+key = "bcec868c85737eb4"
+origin = '''
+
+本页由 cms-codegen 从结构化字段生成，用于验收「填表 → 生成 MDX → 测试站预览」流程。完整功能说明仍见 Panda Sense Pro 主文档。
+'''
+translate = '''
+This page was generated from structured fields by `cms-codegen` to validate the "Fill Form → Generate MDX → Preview on Test Site" workflow. Please refer to the main Panda Sense Pro documentation for the complete feature specifications.
+'''
+
+[[block]]
+key = "4f913da181b20e5e"
+origin = '''
+
+## 技术规格
+'''
+translate = '''
+## Technical Specifications
+'''
+
+[[block]]
+key = "2781a7930af45156"
+origin = '''
+
+| Panda Sense Pro（CMS 演示） | 规格 |
+| --- | --- |
+| 产品外形尺寸 | 117.12mm x 79.78mm x 73.67mm |
+| 电源输入 | USB-C DC5V 2A |
+| MCU | ESP32-S3-WROOM-1-N16R8 |
+'''
+translate = '''
+| Panda Sense Pro (CMS Demo) | Specifications |
+| --- | --- |
+| Product Dimensions | 117.12mm x 79.78mm x 73.67mm |
+| Power Input | USB-C DC 5V 2A |
+| MCU | ESP32-S3-WROOM-1-N16R8 
+'''
+
+[[block]]
+key = "c63454864ae0c430"
+origin = '''
+
+## 产品特点
+'''
+translate = '''
+## Features
+'''
+
+[[block]]
+key = "3963d0d351362b01"
+origin = '''
+
+- 按模板字段编辑，无需手写 MDX
+- 中英分字段维护
+- 保存后可在测试环境预览
+- 测试内容
+'''
+translate = '''
+- Edit using template fields; no need to write MDX manually
+- Maintain fields separately for Chinese and English
+- Preview in the test environment after saving
+- Test content
+'''
