@@ -1,0 +1,359 @@
+[metadata]
+
+[[block]]
+key = "1ea02ad2315dd635"
+origin = '''
+拆下 AMS 主框架上的 2 颗固定螺丝。
+'''
+translate = '''
+Remove the 2 fixing screws on the AMS main frame.
+'''
+
+[[block]]
+key = "08e166dfb07bbd42"
+origin = '''
+<ImageView
+    src="/assets/2db805b6-9f82-451f-8edb-a52ddf28f891"
+    alt=""
+    width="45%"
+/>
+'''
+translate = '''
+<ImageView
+    src="/assets/2db805b6-9f82-451f-8edb-a52ddf28f891"
+    alt=""
+    width="45%"
+/>
+'''
+
+[[block]]
+key = "04ba73e924a1347e"
+origin = '''
+按压五通组件上的释放按钮，将主框架后部缓慢抬起。注意内部仍有线缆连接，请勿用力拉扯。
+'''
+translate = '''
+Press the release button on the five-way assembly and slowly lift the rear part of the main frame. Note that cables are still connected inside; do not pull them forcefully.
+'''
+
+[[block]]
+key = "f8117586ef2ab898"
+origin = '''
+<ImageView
+    src="/assets/eb30ab05-c76b-41e0-a738-372f21036750"
+    alt=""
+    width="30%"
+/>
+'''
+translate = '''
+<ImageView
+    src="/assets/eb30ab05-c76b-41e0-a738-372f21036750"
+    alt=""
+    width="30%"
+/>
+'''
+
+[[block]]
+key = "96f3b7a8a3600f01"
+origin = '''
+<ImageView
+    src="/assets/b282f436-8c6b-4ae1-bee3-b2a7d030f9d1"
+    alt=""
+    width="30%"
+/>
+'''
+translate = '''
+<ImageView
+    src="/assets/b282f436-8c6b-4ae1-bee3-b2a7d030f9d1"
+    alt=""
+    width="30%"
+/>
+'''
+
+[[block]]
+key = "6a242b3d0b712df8"
+origin = '''
+断开 485 连接线与电源连接线，随后取出 AMS 主框架组件。
+'''
+translate = '''
+Disconnect the 485 communication cable and the power cable, then remove the AMS main frame assembly.
+'''
+
+[[block]]
+key = "5355fa7407691a6c"
+origin = '''
+### 安装 AMS 替换主板
+'''
+translate = '''
+### Install AMS to replace the mainboard
+'''
+
+[[block]]
+key = "bf5b9bdd8d6f46ea"
+origin = '''
+拆下原厂 AMS 电源主板，安装包装内的 **AMS 替换主板**。固定替换主板时，请在螺帽一侧加入尼龙垫片，避免过度拧紧导致主板损伤。
+'''
+translate = '''
+Remove the original AMS power mainboard and install the AMS replacement mainboard included in the package. When securing the replacement mainboard, place a nylon washer on the nut side to prevent damage to the mainboard from over-tightening.
+'''
+
+[[block]]
+key = "f9884c1612991314"
+origin = '''
+<ImageView
+    src="/assets/a78faa36-8316-43ae-9622-33a093285e44"
+    alt=""
+    width="32%"
+/>
+'''
+translate = '''
+<ImageView
+    src="/assets/a78faa36-8316-43ae-9622-33a093285e44"
+    alt=""
+    width="32%"
+/>
+'''
+
+[[block]]
+key = "b102e0cf2b6d146e"
+origin = '''
+<ImageView
+    src="/assets/d975afd2-2677-4ca5-ab1c-2afbd28c63ed"
+    alt=""
+    width="32%"
+/>
+'''
+translate = '''
+<ImageView
+    src="/assets/d975afd2-2677-4ca5-ab1c-2afbd28c63ed"
+    alt=""
+    width="32%"
+/>
+'''
+
+[[block]]
+key = "a8799438fad5e5e8"
+origin = '''
+将原厂主板放回防静电袋妥善保管。
+'''
+translate = '''
+Put the original main board back into the anti-static bag for proper storage.
+'''
+
+[[block]]
+key = "a796a65efb78067b"
+origin = '''
+### 布置控制模块供电线
+'''
+translate = '''
+### Arrange the power supply wires for the control module
+'''
+
+[[block]]
+key = "e10d9656559447fb"
+origin = '''
+将供电线插到控制模块上并压入背部的理线槽中，使用1片双面胶贴在模块的中下位置。
+'''
+translate = '''
+Plug the power supply cable into the control module, tuck it into the cable management slot on the back, and attach one piece of double-sided tape to the middle-lower part of the module.
+'''
+
+[[block]]
+key = "ddb0a2ca9a7a1924"
+origin = '''
+<ImageView
+    src="/assets/a3b5f0d2-a4cc-4333-b675-a2b41ccbde57"
+    alt=""
+    width="50%"
+/>
+'''
+translate = '''
+<ImageView
+    src="/assets/a3b5f0d2-a4cc-4333-b675-a2b41ccbde57"
+    alt=""
+    width="50%"
+/>
+'''
+
+[[block]]
+key = "000ef2b826c1d3a2"
+origin = '''
+撕下双面胶离型纸，将供电线从滚轴下方位置穿过，并将控制模块通过双面胶临时固定在 AMS 中间的凹槽中。
+'''
+translate = '''
+Peel off the release liner of the double-sided tape, route the power supply cable under the roller, and temporarily secure the control module in the middle groove of the AMS using the double-sided tape.
+'''
+
+[[block]]
+key = "202e56d2122f57e7"
+origin = '''
+<ImageView
+    src="/assets/ea4367f3-fc9f-41b2-a85f-d07665d39734"
+    alt=""
+    width="50%"
+/>
+'''
+translate = '''
+<ImageView
+    src="/assets/ea4367f3-fc9f-41b2-a85f-d07665d39734"
+    alt=""
+    width="50%"
+/>
+'''
+
+[[block]]
+key = "796ae34357e930da"
+origin = '''
+将供电线从中间的孔中穿过 AMS，并使用醋酸布胶带将凸起的线路贴紧 AMS 壳体，以避免影响到滚轴的转动
+'''
+translate = '''
+Pass the power supply cable through the AMS via the middle hole, and use acetate cloth tape to secure the protruding wiring tightly to the AMS housing so that it does not interfere with the rotation of the roller.
+'''
+
+[[block]]
+key = "316577e2d5582be9"
+origin = '''
+<ImageView
+    src="/assets/96ca785b-f483-4ce8-8782-e5457e79d19c"
+    alt=""
+    width="48%"
+/>
+'''
+translate = '''
+<ImageView
+    src="/assets/96ca785b-f483-4ce8-8782-e5457e79d19c"
+    alt=""
+    width="48%"
+/>
+'''
+
+[[block]]
+key = "8f6a99e621fc4157"
+origin = '''
+参考图示位置在壳体背面中下位置使用布线扣或者醋酸布固定供电线
+'''
+translate = '''
+Fix the power supply cable with cable ties or acetate cloth at the middle-lower position on the back of the housing as shown in the reference diagram.
+'''
+
+[[block]]
+key = "e379b863c13eb822"
+origin = '''
+<ImageView
+    src="/assets/7a71256d-e462-4825-9ab8-a0ae21d57b63"
+    alt=""
+    width="50%"
+/>
+'''
+translate = '''
+<ImageView
+    src="/assets/7a71256d-e462-4825-9ab8-a0ae21d57b63"
+    alt=""
+    width="50%"
+/>
+'''
+
+[[block]]
+key = "4ffef8f3113a3a11"
+origin = '''
+注意
+'''
+translate = '''
+Note
+'''
+
+[[block]]
+key = "3ab97526dcc33ec8"
+origin = '''
+走线不得侵入 AMS 齿轮组或其他运动部件区域，避免使用过程中发生夹线/磨线或拉扯。
+'''
+translate = '''
+Cable routing must not intrude into the AMS gear set or other moving component areas to prevent cable pinching, cable abrasion or pulling during use.
+'''
+
+[[block]]
+key = "2ea6c86c505e4204"
+origin = '''
+### 安装控制模块与输出模块
+'''
+translate = '''
+### Install the control module and output module
+'''
+
+[[block]]
+key = "be16de9f2c9d36eb"
+origin = '''
+在两个输出模块背面的中下部位贴上双面胶。
+'''
+translate = '''
+Apply double-sided tape to the lower-middle part on the back of the two output modules.
+'''
+
+[[block]]
+key = "3cc189dd6ef5f3fe"
+origin = '''
+<ImageView
+    src="/assets/232171d6-6292-460e-aaa1-27f4584da336"
+    alt=""
+    width="50%"
+/>
+'''
+translate = '''
+<ImageView
+    src="/assets/232171d6-6292-460e-aaa1-27f4584da336"
+    alt=""
+    width="50%"
+/>
+'''
+
+[[block]]
+key = "cb41e0226f7369b8"
+origin = '''
+重新扣下控制模块，如图所示将两个输出模块连接到控制模块上。
+'''
+translate = '''
+Reinstall the control module, and connect the two output modules to the control module as shown in the figure.
+'''
+
+[[block]]
+key = "40ce2b88818cb6d6"
+origin = '''
+<ImageView
+    src="/assets/c7d21ac2-8cba-4a1d-aa82-fbcbc771eba9"
+    alt=""
+    width="50%"
+/>
+'''
+translate = '''
+<ImageView
+    src="/assets/c7d21ac2-8cba-4a1d-aa82-fbcbc771eba9"
+    alt=""
+    width="50%"
+/>
+'''
+
+[[block]]
+key = "f56c6c82203b33f6"
+origin = '''
+提示
+'''
+translate = '''
+Tip
+'''
+
+[[block]]
+key = "6fd90757ae0efaec"
+origin = '''
+控制模块上的 3 个输出接口功能一致，选择其中任意两个即可。
+'''
+translate = '''
+The three output ports on the control module have identical functions; any two of them can be selected.
+'''
+
+[[block]]
+key = "17ad2243255ef793"
+origin = '''
+撕开双面胶离型膜，将控制模块与两个输出模块固定在 AMS 主框架对应位置
+'''
+translate = '''
+Peel off the release liner of the double-sided adhesive tape, and secure the control module and two output modules to their corresponding positions on the AMS main frame.
+'''
